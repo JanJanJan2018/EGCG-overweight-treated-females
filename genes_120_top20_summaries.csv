@@ -1,296 +1,124 @@
-gene,value,change,summary,Official Name,summarySource
-HBZ1,Down Regulated EGCG+Quercentin,0.930475786,"
-Entrez Gene Summary for HBZ Gene
-
-    Zeta-globin is an alpha-like hemoglobin. The zeta-globin polypeptide is synthesized in the yolk sac of the early embryo, while alpha-globin is produced throughout fetal and adult life. The zeta-globin gene is a member of the human alpha-globin gene cluster that includes five functional genes and two pseudogenes. The order of genes is: 5' - zeta - pseudozeta - mu - pseudoalpha-1 - alpha-2 -alpha-1 - theta1 - 3'. [provided by RefSeq, Nov 2009]
-
-GeneCards Summary for HBZ Gene
-
-HBZ (Hemoglobin Subunit Zeta) is a Protein Coding gene. Diseases associated with HBZ include Alpha-Thalassemia and Thalassemia. Gene Ontology (GO) annotations related to this gene include iron ion binding and oxygen binding. An important paralog of this gene is HBA2.",zeta-1 globin processed pseudogene,genecards.org
-RPPH1,Down Regulated EGCG,0.525648357,"
-Entrez Gene Summary for RPPH1 Gene
-
-    H1RNA is the RNA component of the RNase P ribonucleoprotein, an endoribonuclease that cleaves tRNA precursor molecules to form the mature 5-prime termini of their tRNA sequences (Baer et al., 1989 [PubMed 2308839]).[supplied by OMIM, Mar 2008]
-
-GeneCards Summary for RPPH1 Gene
-
-RPPH1 (Ribonuclease P RNA Component H1) is an RNA Gene, and is affiliated with the RNase_P_RNA class. Diseases associated with RPPH1 include Visual Epilepsy.",ribonuclease P RNA component H1,genecards.org
-BBOF1,Up Regulated EGCG+Quercentin,-0.403802357,"
-GeneCards Summary for BBOF1 Gene
-
-BBOF1 (Basal Body Orientation Factor 1) is a Protein Coding gene. Diseases associated with BBOF1 include Methylmalonate Semialdehyde Dehydrogenase Deficiency. An important paralog of this gene is CCDC166.
-UniProtKB/Swiss-Prot Summary for BBOF1 Gene
-
-    Basal body protein required in multiciliate cells to align and maintain cilia orientation in response to flow. May act by mediating a maturation step that stabilizes and aligns cilia orientation. Not required to respond to planar cell polarity (PCP) or flow-based orientation cues (By similarity)",basal body orientation factor 1,genecards.org
-CTNNAL1,Up Regulated EGCG+Quercentin,-0.471180429,"
-GeneCards Summary for CTNNAL1 Gene
-
-CTNNAL1 (Catenin Alpha Like 1) is a Protein Coding gene. Among its related pathways are Toll-like Receptor Signaling Pathway. Gene Ontology (GO) annotations related to this gene include structural molecule activity and cadherin binding. An important paralog of this gene is CTNNA2.
-UniProtKB/Swiss-Prot Summary for CTNNAL1 Gene
-
-    May modulate the Rho pathway signaling by providing a scaffold for the Lbc Rho guanine nucleotide exchange factor (ARHGEF1).
-        CTNL1_HUMAN,Q9UBT7 
-",catenin alpha like 1,genecards.org
-IGKV1-33,Up Regulated EGCG,-0.417029643,"
-GeneCards Summary for IGKV1-33 Gene
-
-IGKV1-33 (Immunoglobulin Kappa Variable 1-33) is a Protein Coding gene. An important paralog of this gene is IGKV1D-33.
-UniProtKB/Swiss-Prot Summary for IGKV1-33 Gene
-
-    V region of the variable domain of immunoglobulin light chains that participates in the antigen recognition (PubMed:24600447). Immunoglobulins, also known as antibodies, are membrane-bound or secreted glycoproteins produced by B lymphocytes. In the recognition phase of humoral immunity, the membrane-bound immunoglobulins serve as receptors which, upon binding of a specific antigen, trigger the clonal expansion and differentiation of B lymphocytes into immunoglobulins-secreting plasma cells. Secreted immunoglobulins mediate the effector phase of humoral immunity, which results in the elimination of bound antigens (PubMed:20176268, PubMed:22158414). The antigen binding site is formed by the variable domain of one heavy chain, together with that of its associated light chain. Thus, each immunoglobulin has two antigen binding sites with remarkable affinity for a particular antigen. The variable domains are assembled by a process called V-(D)-J rearrangement and can then be subjected to somatic hypermutations which, after exposure to antigen and selection, allow affinity maturation for a particular antigen (PubMed:20176268, PubMed:17576170).
-        KV133_HUMAN,P01594 
-",immunoglobulin kappa variable 1-33,genecards.org
-IGKV1-5,Up Regulated EGCG,-0.500883714,"
-GeneCards Summary for IGKV1-5 Gene
-
-IGKV1-5 (Immunoglobulin Kappa Variable 1-5) is a Protein Coding gene. Diseases associated with IGKV1-5 include Light Chain Deposition Disease. Gene Ontology (GO) annotations related to this gene include antigen binding. An important paralog of this gene is IGKV1D-13.
-UniProtKB/Swiss-Prot Summary for IGKV1-5 Gene
-
-    V region of the variable domain of immunoglobulin light chains that participates in the antigen recognition (PubMed:24600447). Immunoglobulins, also known as antibodies, are membrane-bound or secreted glycoproteins produced by B lymphocytes. In the recognition phase of humoral immunity, the membrane-bound immunoglobulins serve as receptors which, upon binding of a specific antigen, trigger the clonal expansion and differentiation of B lymphocytes into immunoglobulins-secreting plasma cells. Secreted immunoglobulins mediate the effector phase of humoral immunity, which results in the elimination of bound antigens (PubMed:20176268, PubMed:22158414). The antigen binding site is formed by the variable domain of one heavy chain, together with that of its associated light chain. Thus, each immunoglobulin has two antigen binding sites with remarkable affinity for a particular antigen. The variable domains are assembled by a process called V-(D)-J rearrangement and can then be subjected to somatic hypermutations which, after exposure to antigen and selection, allow affinity maturation for a particular antigen (PubMed:20176268, PubMed:17576170).
-        KV105_HUMAN,P01602 
-",immunoglobulin kappa variable 1-5,genecards.org
-IGKV2-24,Up Regulated EGCG,-0.398315071,"
-GeneCards Summary for IGKV2-24 Gene
-
-IGKV2-24 (Immunoglobulin Kappa Variable 2-24) is a Protein Coding gene. An important paralog of this gene is IGKV2D-24.
-UniProtKB/Swiss-Prot Summary for IGKV2-24 Gene
-
-    V region of the variable domain of immunoglobulin light chains that participates in the antigen recognition (PubMed:24600447). Immunoglobulins, also known as antibodies, are membrane-bound or secreted glycoproteins produced by B lymphocytes. In the recognition phase of humoral immunity, the membrane-bound immunoglobulins serve as receptors which, upon binding of a specific antigen, trigger the clonal expansion and differentiation of B lymphocytes into immunoglobulins-secreting plasma cells. Secreted immunoglobulins mediate the effector phase of humoral immunity, which results in the elimination of bound antigens (PubMed:20176268, PubMed:22158414). The antigen binding site is formed by the variable domain of one heavy chain, together with that of its associated light chain. Thus, each immunoglobulin has two antigen binding sites with remarkable affinity for a particular antigen. The variable domains are assembled by a process called V-(D)-J rearrangement and can then be subjected to somatic hypermutations which, after exposure to antigen and selection, allow affinity maturation for a particular antigen (PubMed:20176268, PubMed:17576170).
-        KV224_HUMAN,A0A0C4DH68 
-
-Additional gene information for IGKV2-24 Gene ",immunoglobulin kappa variable 2-24,
-IGKV2-30,Up Regulated EGCG,-0.4379165,"
-GeneCards Summary for IGKV2-30 Gene
-
-IGKV2-30 (Immunoglobulin Kappa Variable 2-30) is a Protein Coding gene. An important paralog of this gene is IGKV2D-30.
-UniProtKB/Swiss-Prot Summary for IGKV2-30 Gene
-
-    V region of the variable domain of immunoglobulin light chains that participates in the antigen recognition (PubMed:24600447). Immunoglobulins, also known as antibodies, are membrane-bound or secreted glycoproteins produced by B lymphocytes. In the recognition phase of humoral immunity, the membrane-bound immunoglobulins serve as receptors which, upon binding of a specific antigen, trigger the clonal expansion and differentiation of B lymphocytes into immunoglobulins-secreting plasma cells. Secreted immunoglobulins mediate the effector phase of humoral immunity, which results in the elimination of bound antigens (PubMed:20176268, PubMed:22158414). The antigen binding site is formed by the variable domain of one heavy chain, together with that of its associated light chain. Thus, each immunoglobulin has two antigen binding sites with remarkable affinity for a particular antigen. The variable domains are assembled by a process called V-(D)-J rearrangement and can then be subjected to somatic hypermutations which, after exposure to antigen and selection, allow affinity maturation for a particular antigen (PubMed:20176268, PubMed:17576170).
-        KV230_HUMAN,P06310 
-",immunoglobulin kappa variable 2-30,genecards.org
-IGKV3-11,Up Regulated EGCG,-0.441037357,"
-GeneCards Summary for IGKV3-11 Gene
-
-IGKV3-11 (Immunoglobulin Kappa Variable 3-11) is a Protein Coding gene. Gene Ontology (GO) annotations related to this gene include antigen binding. An important paralog of this gene is IGKV3D-11.
-UniProtKB/Swiss-Prot Summary for IGKV3-11 Gene
-
-    V region of the variable domain of immunoglobulin light chains that participates in the antigen recognition (PubMed:24600447). Immunoglobulins, also known as antibodies, are membrane-bound or secreted glycoproteins produced by B lymphocytes. In the recognition phase of humoral immunity, the membrane-bound immunoglobulins serve as receptors which, upon binding of a specific antigen, trigger the clonal expansion and differentiation of B lymphocytes into immunoglobulins-secreting plasma cells. Secreted immunoglobulins mediate the effector phase of humoral immunity, which results in the elimination of bound antigens (PubMed:20176268, PubMed:22158414). The antigen binding site is formed by the variable domain of one heavy chain, together with that of its associated light chain. Thus, each immunoglobulin has two antigen binding sites with remarkable affinity for a particular antigen. The variable domains are assembled by a process called V-(D)-J rearrangement and can then be subjected to somatic hypermutations which, after exposure to antigen and selection, allow affinity maturation for a particular antigen (PubMed:20176268, PubMed:17576170).
-        KV311_HUMAN,P04433 
-",immunoglobulin kappa variable 3-11,genecards.org
-POU2AF1,Up Regulated EGCG,-0.409293857,"
-GeneCards Summary for POU2AF1 Gene
-
-POU2AF1 (POU Class 2 Homeobox Associating Factor 1) is a Protein Coding gene. Diseases associated with POU2AF1 include Hodgkin's Lymphoma, Lymphocytic Depletion and Primary Biliary Cholangitis. Gene Ontology (GO) annotations related to this gene include transcription coactivator activity and transcription coregulator activity.
-UniProtKB/Swiss-Prot Summary for POU2AF1 Gene
-
-    Transcriptional coactivator that specifically associates with either OCT1 or OCT2. It boosts the OCT1 mediated promoter activity and to a lesser extent, that of OCT2. It has no intrinsic DNA-binding activity. It recognizes the POU domains of OCT1 and OCT2. It is essential for the response of B-cells to antigens and required for the formation of germinal centers. ","
-    POU class 2 homeobox associating factor 1",genecards.org
-RNF182,Down Regulated EGCG,0.583718429,"
-GeneCards Summary for RNF182 Gene
-
-RNF182 (Ring Finger Protein 182) is a Protein Coding gene. Among its related pathways are Class I MHC mediated antigen processing and presentation and Innate Immune System. Gene Ontology (GO) annotations related to this gene include ligase activity and ubiquitin-protein transferase activity. An important paralog of this gene is RC3H2.
-UniProtKB/Swiss-Prot Summary for RNF182 Gene
-
-    E3 ubiquitin-protein ligase that mediates the ubiquitination of ATP6V0C and targets it to degradation via the ubiquitin-proteasome pathway.
-        RN182_HUMAN,Q8N6D2 
-",ring finger protein 182,genecards.org
-RNU4-2,Down Regulated EGCG,0.724742571,"
-GeneCards Summary for RNU4-2 Gene
-
-RNU4-2 (RNA, U4 Small Nuclear 2) is an RNA Gene, and is affiliated with the snRNA class.
-Rfam classification for RNU4-2 Gene
-
-    U4 spliceosomal RNA
-        RF00015 
-","RNA, U4 small nuclear 2",genecards.org
-RNU5A-1,Down Regulated EGCG+Quercentin,0.396240143,"
-GeneCards Summary for RNU5A-1 Gene
-
-RNU5A-1 (RNA, U5A Small Nuclear 1) is an RNA Gene, and is affiliated with the snRNA class. Diseases associated with RNU5A-1 include Poikiloderma With Neutropenia.
-Rfam classification for RNU5A-1 Gene
-
-    U5 spliceosomal RNA
-        RF00020 
-","RNA, U5A small nuclear 1",genecards.org
-SCARNA10,Down Regulated EGCG,0.587677071,"
-GeneCards Summary for SCARNA10 Gene
-
-SCARNA10 (Small Cajal Body-Specific RNA 10) is an RNA Gene, and is affiliated with the snoRNA class.
-Rfam classification for SCARNA10 Gene
-
-    Small nucleolar RNA U85
-        RF01296 
-",small Cajal body-specific RNA 10,genecards.org
-SMPD3,Down Regulated EGCG+Quercentin,0.423663286,"
-GeneCards Summary for SMPD3 Gene
-
-SMPD3 (Sphingomyelin Phosphodiesterase 3) is a Protein Coding gene. Diseases associated with SMPD3 include Deafness, Autosomal Recessive 89. Among its related pathways are TNF signaling (REACTOME) and LDL Oxidation in Atherogenesis. Gene Ontology (GO) annotations related to this gene include sphingomyelin phosphodiesterase activity.
-UniProtKB/Swiss-Prot Summary for SMPD3 Gene
-
-    Catalyzes the hydrolysis of sphingomyelin to form ceramide and phosphocholine. Ceramide mediates numerous cellular functions, such as apoptosis and growth arrest, and is capable of regulating these 2 cellular events independently. Also hydrolyzes sphingosylphosphocholine. Regulates the cell cycle by acting as a growth suppressor in confluent cells. Probably acts as a regulator of postnatal development and participates in bone and dentin mineralization.
-        NSMA2_HUMAN,Q9NY59 
-",sphingomyelin phosphodiesterase 3,genecards.org
-SNORA23,Down Regulated EGCG+Quercentin,0.412260857,"
-GeneCards Summary for SNORA23 Gene
-
-SNORA23 (Small Nucleolar RNA, H/ACA Box 23) is an RNA Gene, and is affiliated with the snoRNA class.
-Rfam classification for SNORA23 Gene
-
-    Small nucleolar RNA SNORA23
-        RF00319 
-","small nucleolar RNA, H/ACA box 23",genecards.org
-SNORA38B,Down Regulated EGCG+Quercentin,0.445933286,"
-GeneCards Summary for SNORA38B Gene
-
-SNORA38B (Small Nucleolar RNA, H/ACA Box 38B) is an RNA Gene, and is affiliated with the snoRNA class.
-Rfam classification for SNORA38B Gene
-
-    Small nucleolar RNA SNORA38
-        RF00428 
-","small nucleolar RNA, H/ACA box 38B",genecards.org
-TMEM176B,Fold Change EGCG,1.105664164,"
-GeneCards Summary for TMEM176B Gene
-
-TMEM176B (Transmembrane Protein 176B) is a Protein Coding gene. An important paralog of this gene is TMEM176A.
-UniProtKB/Swiss-Prot Summary for TMEM176B Gene
-
-    May play a role in the process of maturation of dendritic cells. Required for the development of cerebellar granule cells (By similarity).
-        T176B_HUMAN,Q3YBM2 
-",transmembrane protein 176B,genecards.org
-TMTC1,Down Regulated EGCG,0.68544,"
-GeneCards Summary for TMTC1 Gene
-
-TMTC1 (Transmembrane O-Mannosyltransferase Targeting Cadherins 1) is a Protein Coding gene. Diseases associated with TMTC1 include Type 1 Diabetes Mellitus 3 and Spinal Cord Disease. An important paralog of this gene is TMTC4.
-UniProtKB/Swiss-Prot Summary for TMTC1 Gene
-
-    Transfers mannosyl residues to the hydroxyl group of serine or threonine residues. The 4 members of the TMTC family are O-mannosyl-transferases dedicated primarily to the cadherin superfamily, each member seems to have a distinct role in decorating the cadherin domains with O-linked mannose glycans at specific regions. Also acts as O-mannosyl-transferase on other proteins such as PDIA3.
-        TMTC1_HUMAN,Q8IUR5 
-",transmembrane O-mannosyltransferase targeting cadherins 1,genecards.org
-TREML4,Up Regulated EGCG,-0.493424214,"
-GeneCards Summary for TREML4 Gene
-
-TREML4 (Triggering Receptor Expressed On Myeloid Cells Like 4) is a Protein Coding gene. Among its related pathways are Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell and Class I MHC mediated antigen processing and presentation. An important paralog of this gene is NCR2.
-UniProtKB/Swiss-Prot Summary for TREML4 Gene
-
-    Positively regulates Toll-like receptor TLR7 signaling in macrophages.
-        TRML4_HUMAN,Q6UXN2 
-",triggering receptor expressed on myeloid cells like 4,genecards.org
-UBE2O,Down Regulated EGCG,0.495240571,"
-GeneCards Summary for UBE2O Gene
-
-UBE2O (Ubiquitin Conjugating Enzyme E2 O) is a Protein Coding gene. Among its related pathways are Ubiquitin mediated proteolysis and Class I MHC mediated antigen processing and presentation. Gene Ontology (GO) annotations related to this gene include ubiquitin-protein transferase activity. An important paralog of this gene is UBE2Z.
-UniProtKB/Swiss-Prot Summary for UBE2O Gene
-
-    E2/E3 hybrid ubiquitin-protein ligase that displays both E2 and E3 ligase activities and mediates monoubiquitination of target proteins (PubMed:23455153, PubMed:24703950). Negatively regulates TRAF6-mediated NF-kappa-B activation independently of its E2 activity (PubMed:23381138). Acts as a positive regulator of BMP7 signaling by mediating monoubiquitination of SMAD6, thereby regulating adipogenesis (PubMed:23455153). Mediates monoubiquitination at different sites of the nuclear localization signal (NLS) of BAP1, leading to cytoplasmic retention of BAP1. Also able to monoubiquitinate the NLS of other chromatin-associated proteins, such as INO80 and CXXC1, affecting their subcellular location (PubMed:24703950). Acts as a regulator of retrograde transport by assisting the TRIM27:MAGEL2 E3 ubiquitin ligase complex to mediate 'Lys-63'-linked ubiquitination of WASHC1, leading to promote endosomal F-actin assembly (PubMed:23452853).
-        UBE2O_HUMAN,Q9C0C9 
-",ubiquitin conjugating enzyme E2 O,genecards.org
-ZNF578,Fold Change EGCG,1.083705678,"
-GeneCards Summary for ZNF578 Gene
-
-ZNF578 (Zinc Finger Protein 578) is a Protein Coding gene. Gene Ontology (GO) annotations related to this gene include nucleic acid binding. An important paralog of this gene is ZNF813.
-UniProtKB/Swiss-Prot Summary for ZNF578 Gene
-
-    May be involved in transcriptional regulation.
-        ZN578_HUMAN,Q96N58 
-
-Additional gene information for ZNF578 Gene ",zinc finger protein 578,genecards.org
-CYP4F35P,Fold Change EGCG,1.09482017,"CYP4F35P (Cytochrome P450 Family 4 Subfamily F Member 35, Pseudogene) is a Pseudogene. ","cytochrome P450 family 4 subfamily F member 35, pseudogene",genecards.org
-COX7B,Fold Change EGCG+Quercentin,1.134414904,"Cytochrome c oxidase (COX), the terminal component of the mitochondrial respiratory chain, catalyzes the electron transfer from reduced cytochrome c to oxygen. This component is a heteromeric complex consisting of 3 catalytic subunits encoded by mitochondrial genes and multiple structural subunits encoded by nuclear genes. The mitochondrially-encoded subunits function in electron transfer, and the nuclear-encoded subunits may function in the regulation and assembly of the complex. This nuclear gene encodes subunit VIIb, which is highly similar to bovine COX VIIb protein and is found in all tissues. This gene may have several pseudogenes on chromosomes 1, 2, 20 and 22. ",cytochrome c oxidase subunit 7B,ncbi gene
-GSTM1,Fold Change EGCG+Quercentin,1.088275182,"Cytosolic and membrane-bound forms of glutathione S-transferase are encoded by two distinct supergene families. At present, eight distinct classes of the soluble cytoplasmic mammalian glutathione S-transferases have been identified: alpha, kappa, mu, omega, pi, sigma, theta and zeta. This gene encodes a glutathione S-transferase that belongs to the mu class. The mu class of enzymes functions in the detoxification of electrophilic compounds, including carcinogens, therapeutic drugs, environmental toxins and products of oxidative stress, by conjugation with glutathione. The genes encoding the mu class of enzymes are organized in a gene cluster on chromosome 1p13.3 and are known to be highly polymorphic. These genetic variations can change an individual's susceptibility to carcinogens and toxins as well as affect the toxicity and efficacy of certain drugs. Null mutations of this class mu gene have been linked with an increase in a number of cancers, likely due to an increased susceptibility to environmental toxins and carcinogens. Multiple protein isoforms are encoded by transcript variants of this gene. ",glutathione S-transferase mu 1,ncbi gene
-GSTM11,Down Regulated EGCG,0.592496357,"Cytosolic and membrane-bound forms of glutathione S-transferase are encoded by two distinct supergene families. At present, eight distinct classes of the soluble cytoplasmic mammalian glutathione S-transferases have been identified: alpha, kappa, mu, omega, pi, sigma, theta and zeta. This gene encodes a glutathione S-transferase that belongs to the mu class. The mu class of enzymes functions in the detoxification of electrophilic compounds, including carcinogens, therapeutic drugs, environmental toxins and products of oxidative stress, by conjugation with glutathione. The genes encoding the mu class of enzymes are organized in a gene cluster on chromosome 1p13.3 and are known to be highly polymorphic. These genetic variations can change an individual's susceptibility to carcinogens and toxins as well as affect the toxicity and efficacy of certain drugs. Null mutations of this class mu gene have been linked with an increase in a number of cancers, likely due to an increased susceptibility to environmental toxins and carcinogens. Multiple protein isoforms are encoded by transcript variants of this gene.", GSTM1-1; GSTM1a-1a; GSTM1b-1b,ncbi gene
-DDX18P6,Fold Change EGCG+Quercentin,1.097674048,DDX18P6 (DEAD-Box Helicase 18 Pseudogene 6) is a Pseudogene. ,DEAD-box helicase 18 pseudogene 6,genecards.org
-KIAA1324,Down Regulated EGCG+Quercentin,0.503210071,Expression of this gene is induced by estrogen and the encoded protein has been characterized as a transmembrane protein. The encoded protein has been found in to correlate with survival in certain carcinomas (PMID: 21102415) and may be important for cellular response to stress (PMID: 21072319). Alternative splicing results in multiple transcript variants. ,KIAA1324,ncbi gene
-FAU1,Fold Change EGCG+Quercentin,1.08904129,FAUP1 (FAU Pseudogene 1) is a Pseudogene. ,5-formyltetrahydrofolate cyclo-ligase,genecards.org
-HBZP1,Up Regulated EGCG,-0.570047,HBZP1 (Hemoglobin Subunit Zeta Pseudogene 1) is a Pseudogene.,hemoglobin subunit zeta pseudogene 1,genecards.org
-HLA-DOA,Down Regulated EGCG+Quercentin,0.427822643,"HLA-DOA belongs to the HLA class II alpha chain paralogues. HLA-DOA forms a heterodimer with HLA-DOB. The heterodimer, HLA-DO, is found in lysosomes in B cells and regulates HLA-DM-mediated peptide loading on MHC class II molecules. In comparison with classical HLA class II molecules, this gene exhibits very little sequence variation, especially at the protein level. ","major histocompatibility complex, class II, DO alpha",ncbi gene
-HMGB3P24,Fold Change EGCG+Quercentin,1.096735273,HMGB3P24 (High Mobility Group Box 3 Pseudogene 24) is a Pseudogene. ,high mobility group box 3 pseudogene 24,genecards.org
-BUD31P2,Fold Change EGCG,1.084540081,Homolog Pseudogene 2) is a Pseudogene. ,BUD31 homolog pseudogene 2,genecards.org
-IFIT1B,Down Regulated EGCG,0.507117286,IFIT1B (Interferon Induced Protein With Tetratricopeptide Repeats 1B) is a Protein Coding gene. Among its related pathways are Toll-like Receptor Signaling Pathway. An important paralog of this gene is IFIT1.,interferon induced protein with tetratricopeptide repeats 1B,genecards.org
-IGHV3-47,Down Regulated EGCG+Quercentin,0.425214786,IGHV3-47 (Immunoglobulin Heavy Variable 3-47 (Pseudogene)) is a Pseudogene. ,immunoglobulin heavy variable 3-47 (pseudogene),genecards.org
-IGKV1D-27,Down Regulated EGCG+Quercentin,0.577664571,IGKV1D-27 (Immunoglobulin Kappa Variable 1D-27 (Pseudogene)) is a Pseudogene. ,immunoglobulin kappa variable 1D-27 (pseudogene),genecards.org
-IGKV2-26,Down Regulated EGCG+Quercentin,0.580853,IGKV2-26 (Immunoglobulin Kappa Variable 2-26 (Pseudogene)) is a Pseudogene. ,immunoglobulin kappa variable 2-26 (pseudogene),genecards.org
-KARSP3,Fold Change EGCG+Quercentin,1.201475196,KARS1P3 (Lysyl-TRNA Synthetase 1 Pseudogene 3) is a Pseudogene. ,lysyl-tRNA synthetase 1 pseudogene 3,genecards.org
-LINC00189,Down Regulated EGCG,0.573705571,"LINC00189 (Long Intergenic Non-Protein Coding RNA 189) is an RNA Gene, and is affiliated with the lncRNA class. ",long intergenic non-protein coding RNA 189,genecards.org
-LINC01356,Fold Change EGCG+Quercentin,1.096309372,"LINC01356 (Long Intergenic Non-Protein Coding RNA 1356) is an RNA Gene, and is affiliated with the lncRNA class. ",long intergenic non-protein coding RNA 1356,genecards.org
-MIR548AD,Fold Change EGCG,1.088273576,"microRNAs (miRNAs) are short (20-24 nt) non-coding RNAs that are involved in post-transcriptional regulation of gene expression in multicellular organisms by affecting both the stability and translation of mRNAs. miRNAs are transcribed by RNA polymerase II as part of capped and polyadenylated primary transcripts (pri-miRNAs) that can be either protein-coding or non-coding. The primary transcript is cleaved by the Drosha ribonuclease III enzyme to produce an approximately 70-nt stem-loop precursor miRNA (pre-miRNA), which is further cleaved by the cytoplasmic Dicer ribonuclease to generate the mature miRNA and antisense miRNA star (miRNA*) products. The mature miRNA is incorporated into a RNA-induced silencing complex (RISC), which recognizes target mRNAs through imperfect base pairing with the miRNA and most commonly results in translational inhibition or destabilization of the target mRNA. The RefSeq represents the predicted microRNA stem-loop.",microRNA 548ad,ncbi gene
-MTCO1P11,Fold Change EGCG+Quercentin,1.09497767,MTCO1P11 (MT-CO1 Pseudogene 11) is a Pseudogene. ,MT-CO1 pseudogene 11,genecards.org
-MTCO2P29,Fold Change EGCG,1.123978659,MTCO2P29 (MT-CO2 Pseudogene 29) is a Pseudogene. ,MT-CO2 pseudogene 29,genecards.org
-OR5M10,Fold Change EGCG+Quercentin,1.104773253,"Olfactory receptors interact with odorant molecules in the nose, to initiate a neuronal response that triggers the perception of a smell. The olfactory receptor proteins are members of a large family of G-protein-coupled receptors (GPCR) arising from single coding-exon genes. Olfactory receptors share a 7-transmembrane domain structure with many neurotransmitter and hormone receptors and are responsible for the recognition and G protein-mediated transduction of odorant signals. The olfactory receptor gene family is the largest in the genome. The nomenclature assigned to the olfactory receptor genes and proteins for this organism is independent of other organisms. ",olfactory receptor family 5 subfamily M member 10,ncbi gene
-RPS7,Fold Change EGCG+Quercentin,1.091646914,"Ribosomes, the organelles that catalyze protein synthesis, consist of a small 40S subunit and a large 60S subunit. Together these subunits are composed of 4 RNA species and approximately 80 structurally distinct proteins. This gene encodes a ribosomal protein that is a component of the 40S subunit. The protein belongs to the S7E family of ribosomal proteins. It is located in the cytoplasm. As is typical for genes encoding ribosomal proteins, there are multiple processed pseudogenes of this gene dispersed through the genome. ",ribosomal protein S7,ncbi gene
-RN7SKP198,Fold Change EGCG,1.092841824,RN7SKP198 (RN7SK Pseudogene 198) is a Pseudogene. ,RN7SK pseudogene 198,genecards.org
-RN7SL218P,Down Regulated EGCG+Quercentin,0.392156857,"RN7SL218P (RNA, 7SL, Cytoplasmic 218, Pseudogene) is a Pseudogene. ","RNA, 7SL, cytoplasmic 218, pseudogene",genecards.org
-RN7SL452P,Fold Change EGCG,1.086796183,"RN7SL452P (RNA, 7SL, Cytoplasmic 452, Pseudogene) is a Pseudogene. ","RNA, 7SL, cytoplasmic 452, pseudogene",genecards.org
-RNA5SP242,Down Regulated EGCG,0.498469,"RNA5SP242 (RNA, 5S Ribosomal Pseudogene 242) is a Pseudogene. ","RNA, 5S ribosomal pseudogene 242",genecards.org
-RNA5SP30,Fold Change EGCG+Quercentin,1.116538609,"RNA5SP30 (RNA, 5S Ribosomal Pseudogene 30) is a Pseudogene. ","RNA, 5S ribosomal pseudogene 30",genecards.org
-RNA5SP301,Up Regulated EGCG+Quercentin,-0.460252214,"RNA5SP301 (RNA, 5S Ribosomal Pseudogene 301) is a Pseudogene. ","RNA, 5S ribosomal pseudogene 301",genecards.org
-RNA5SP449,Fold Change EGCG,1.153036999,"RNA5SP449 (RNA, 5S Ribosomal Pseudogene 449) is a Pseudogene. ","RNA, 5S ribosomal pseudogene 449",genecards.org
-RNA5SP63,Fold Change EGCG,1.089967912,"RNA5SP63 (RNA, 5S Ribosomal Pseudogene 63) is a Pseudogene. ","RNA, 5S ribosomal pseudogene 63",genecards.org
-RNU4-51P,Fold Change EGCG+Quercentin,1.173941987,"RNU4-51P (RNA, U4 Small Nuclear 51, Pseudogene) is a Pseudogene. ","RNA, U4 small nuclear 51, pseudogene",genecards.org
-RNU6-1024P,Fold Change EGCG,1.086352981,"RNU6-1024P (RNA, U6 Small Nuclear 1024, Pseudogene) is a Pseudogene. ","RNA, U6 small nuclear 1024, pseudogene",genecards.org
-RNU6-1124P,Down Regulated EGCG+Quercentin,0.623611429,"RNU6-1124P (RNA, U6 Small Nuclear 1124, Pseudogene) is a Pseudogene. ","RNA, U6 small nuclear 1124, pseudogene",genecards.org
-RNU6-1244P,Fold Change EGCG+Quercentin,1.162781421,"RNU6-1244P (RNA, U6 Small Nuclear 1244, Pseudogene) is a Pseudogene. ","RNA, U6 small nuclear 1244, pseudogene",genecards.org
-RNU6-1315P,Down Regulated EGCG+Quercentin,0.514345,"RNU6-1315P (RNA, U6 Small Nuclear 1315, Pseudogene) is a Pseudogene. ","RNA, U6 small nuclear 1315, pseudogene",genecards.org
-RNU6-263P,Fold Change EGCG,1.082968456,"RNU6-263P (RNA, U6 Small Nuclear 263, Pseudogene) is a Pseudogene. ","RNA, U6 small nuclear 263, pseudogene",genecards.org
-RNU6-403P,Fold Change EGCG+Quercentin,1.13767904,"RNU6-403P (RNA, U6 Small Nuclear 403, Pseudogene) is a Pseudogene. ","RNA, U6 small nuclear 403, pseudogene",genecards.org
-RNU6-522P,Up Regulated EGCG+Quercentin,-0.419670286,"RNU6-522P (RNA, U6 Small Nuclear 522, Pseudogene) is a Pseudogene. ","RNA, U6 small nuclear 522, pseudogene",genecards.org
-RNU6-853P,Fold Change EGCG+Quercentin,1.126844065,"RNU6-853P (RNA, U6 Small Nuclear 853, Pseudogene) is a Pseudogene. ","RNA, U6 small nuclear 853, pseudogene",genecards.org
-RNU6-893P,Fold Change EGCG,1.084522988,"RNU6-893P (RNA, U6 Small Nuclear 893, Pseudogene) is a Pseudogene. ","RNA, U6 small nuclear 893, pseudogene",genecards.org
-RNU6-921P,Down Regulated EGCG+Quercentin,0.599531214,"RNU6-921P (RNA, U6 Small Nuclear 921, Pseudogene) is a Pseudogene. ",RNU6-921P,genecards.org
-RNU6-943P,Fold Change EGCG+Quercentin,1.125664513,"RNU6-943P (RNA, U6 Small Nuclear 943, Pseudogene) is a Pseudogene.","RNA, U6 small nuclear 943, pseudogene",genecards.org
-RNU6-98P,Fold Change EGCG+Quercentin,1.089661746,"RNU6-98P (RNA, U6 Small Nuclear 98, Pseudogene) is a Pseudogene. ","RNA, U6 small nuclear 98, pseudogene",genecards.org
-RNY1P5,Fold Change EGCG+Quercentin,1.100282662,RNY1P5 (RNY1 Pseudogene 5) is a Pseudogene. ,RNY1 pseudogene 5,genecards.org
-RNY3P16,Fold Change EGCG,1.152998074,RNY3P16 (RNY3 Pseudogene 16) is a Pseudogene. ,RNY3 pseudogene 16,genecards.org
-RPL36AP26,Up Regulated EGCG+Quercentin,-0.403493429,RPL36AP26 (Ribosomal Protein L36a Pseudogene 26) is a Pseudogene. ,ribosomal protein L36a pseudogene 26,genecards.org
-PSG1,Fold Change EGCG,1.098186428,"The human placenta is a multihormonal endocrine organ that produces hormones, enzymes, and other molecules that support fetal survival and development. Pregnancy-specific beta-1-glycoprotein (PSBG, PSG) is a major product of the syncytiotrophoblast, reaching concentrations of 100 to 290 mg/l at term in the serum of pregnant women (Horne et al., 1976 [PubMed 971765]). PSG is a member of the immunoglobulin (Ig) superfamily (Watanabe and Chou, 1988 [PubMed 3257488]; Streydio et al., 1988 [PubMed 3260773])",pregnancy specific beta-1-glycoprotein 1,ncbi gene
-OSBP2,Down Regulated EGCG,0.493473286,The protein encoded by this gene contains a pleckstrin homology (PH) domain and an oxysterol-binding region. It binds oxysterols such as 7-ketocholesterol and may inhibit their cytotoxicity. Alternatively spliced transcript variants encoding multiple isoforms have been observed for this gene.,oxysterol binding protein 2,ncbi gene
+gene,value,change,summary,Official Name,notes
+ALDH5A1,Down Regulated EGCG,0.509673429,"This protein belongs to the aldehyde dehydrogenase family of proteins. This gene encodes a mitochondrial NAD(+)-dependent succinic semialdehyde dehydrogenase. A deficiency of this enzyme, known as 4-hydroxybutyricaciduria, is a rare inborn error in the metabolism of the neurotransmitter 4-aminobutyric acid (GABA). In response to the defect, physiologic fluids from patients accumulate GHB, a compound with numerous neuromodulatory properties. Two transcript variants encoding distinct isoforms have been identified for this gene. ",aldehyde dehydrogenase 5 family member A1,"These are from NCBI but it is actually the entrez gene summaries, for annotations and more gene information: Gene Cards-The Human Gene Database at: https://www.genecards.org"
+ALOX15,Down Regulated EGCG+Quercentin,0.564082714,"This gene encodes a member of the lipoxygenase family of proteins. The encoded enzyme acts on various polyunsaturated fatty acid substrates to generate various bioactive lipid mediators such as eicosanoids, hepoxilins, lipoxins, and other molecules. The encoded enzyme and its reaction products have been shown to regulate inflammation and immunity. Multiple pseudogenes of this gene have been identified in the human genome. ",arachidonate 15-lipoxygenase,
+ALOX151,Up Regulated EGCG,-0.459863714,,,
+BBOF1,Up Regulated EGCG+Quercentin,-0.403802357,,basal body orientation factor 1,
+BUD31P2,Fold Change EGCG,1.084540081,,BUD31 homolog pseudogene 2,
+C4BPA,Up Regulated EGCG+Quercentin,-0.434463429,"This gene encodes a member of a superfamily of proteins composed predominantly of tandemly arrayed short consensus repeats of approximately 60 amino acids. Along with a single, unique beta-chain, seven identical alpha-chains encoded by this gene assemble into the predominant isoform of C4b-binding protein, a multimeric protein that controls activation of the complement cascade through the classical pathway. The genes encoding both alpha and beta chains are located adjacent to each other on human chromosome 1 in the regulator of complement activation gene cluster. Two pseudogenes of this gene are also found in the cluster.",complement component 4 binding protein alpha,
+CAV1,Up Regulated EGCG,-0.412508929,"The scaffolding protein encoded by this gene is the main component of the caveolae plasma membranes found in most cell types. The protein links integrin subunits to the tyrosine kinase FYN, an initiating step in coupling integrins to the Ras-ERK pathway and promoting cell cycle progression. The gene is a tumor suppressor gene candidate and a negative regulator of the Ras-p42/44 mitogen-activated kinase cascade. Caveolin 1 and caveolin 2 are located next to each other on chromosome 7 and express colocalizing proteins that form a stable hetero-oligomeric complex. Mutations in this gene have been associated with Berardinelli-Seip congenital lipodystrophy. Alternatively spliced transcripts encode alpha and beta isoforms of caveolin 1.",caveolin 1,
+CD274,Up Regulated EGCG+Quercentin,-0.432865357,"This gene encodes an immune inhibitory receptor ligand that is expressed by hematopoietic and non-hematopoietic cells, such as T cells and B cells and various types of tumor cells. The encoded protein is a type I transmembrane protein that has immunoglobulin V-like and C-like domains. Interaction of this ligand with its receptor inhibits T-cell activation and cytokine production. During infection or inflammation of normal tissue, this interaction is important for preventing autoimmunity by maintaining homeostasis of the immune response. In tumor microenvironments, this interaction provides an immune escape for tumor cells through cytotoxic T-cell inactivation. Expression of this gene in tumor cells is considered to be prognostic in many types of human malignancies, including colon cancer and renal cell carcinoma. Alternative splicing results in multiple transcript variants.",CD274 molecule,
+COX7B,Fold Change EGCG+Quercentin,1.134414904,"Cytochrome c oxidase (COX), the terminal component of the mitochondrial respiratory chain, catalyzes the electron transfer from reduced cytochrome c to oxygen. This component is a heteromeric complex consisting of 3 catalytic subunits encoded by mitochondrial genes and multiple structural subunits encoded by nuclear genes. The mitochondrially-encoded subunits function in electron transfer, and the nuclear-encoded subunits may function in the regulation and assembly of the complex. This nuclear gene encodes subunit VIIb, which is highly similar to bovine COX VIIb protein and is found in all tissues. This gene may have several pseudogenes on chromosomes 1, 2, 20 and 22. ",cytochrome c oxidase subunit 7B,
+COX7B1,Up Regulated EGCG+Quercentin,-0.535390643,,,
+CTNNAL1,Up Regulated EGCG+Quercentin,-0.471180429,,catenin alpha like 1,
+CYP4F35P,Fold Change EGCG,1.09482017,,"cytochrome P450 family 4 subfamily F member 35, pseudogene",
+CYP4F35P1,Up Regulated EGCG,-0.463098,,,
+DDX18P6,Fold Change EGCG+Quercentin,1.097674048,,DEAD-box helicase 18 pseudogene 6,
+FAU,Fold Change EGCG,1.195198318,"This gene is the cellular homolog of the fox sequence in the Finkel-Biskis-Reilly murine sarcoma virus (FBR-MuSV). It encodes a fusion protein consisting of the ubiquitin-like protein fubi at the N terminus and ribosomal protein S30 at the C terminus. It has been proposed that the fusion protein is post-translationally processed to generate free fubi and free ribosomal protein S30. Fubi is a member of the ubiquitin family, and ribosomal protein S30 belongs to the S30E family of ribosomal proteins. Whereas the function of fubi is currently unknown, ribosomal protein S30 is a component of the 40S subunit of the cytoplasmic ribosome and displays antimicrobial activity. Pseudogenes derived from this gene are present in the genome. Similar to ribosomal protein S30, ribosomal proteins S27a and L40 are synthesized as fusion proteins with ubiquitin.",FAU ubiquitin like and ribosomal protein S30 fusion,
+FAU1,Fold Change EGCG+Quercentin,1.08904129,,5-formyltetrahydrofolate cyclo-ligase,
+FAU2,Up Regulated EGCG,-0.571505357,,,
+FOLR3,Down Regulated EGCG+Quercentin,0.392749286,"This gene encodes a member of the folate receptor (FOLR) family of proteins, which have a high affinity for folic acid and for several reduced folic acid derivatives, and mediate delivery of 5-methyltetrahydrofolate to the interior of cells. Expression of this gene may be elevated in ovarian and primary peritoneal carcinoma. This gene is present in a gene cluster on chromosome 11. Alternative splicing results in multiple transcript variants.",folate receptor gamma,
+GPR87,Fold Change EGCG,1.086751807,This gene encodes a G protein-coupled receptor and is located in a cluster of G protein-couple receptor genes on chromosome 3. The encoded protein has been shown to be overexpressed in lung squamous cell carcinoma (PMID:18057535) and regulated by p53 (PMID:19602589).,G protein-coupled receptor 87,
+GSTM1,Fold Change EGCG+Quercentin,1.088275182,"Cytosolic and membrane-bound forms of glutathione S-transferase are encoded by two distinct supergene families. At present, eight distinct classes of the soluble cytoplasmic mammalian glutathione S-transferases have been identified: alpha, kappa, mu, omega, pi, sigma, theta and zeta. This gene encodes a glutathione S-transferase that belongs to the mu class. The mu class of enzymes functions in the detoxification of electrophilic compounds, including carcinogens, therapeutic drugs, environmental toxins and products of oxidative stress, by conjugation with glutathione. The genes encoding the mu class of enzymes are organized in a gene cluster on chromosome 1p13.3 and are known to be highly polymorphic. These genetic variations can change an individual's susceptibility to carcinogens and toxins as well as affect the toxicity and efficacy of certain drugs. Null mutations of this class mu gene have been linked with an increase in a number of cancers, likely due to an increased susceptibility to environmental toxins and carcinogens. Multiple protein isoforms are encoded by transcript variants of this gene. ",glutathione S-transferase mu 1,
+GSTM11,Down Regulated EGCG,0.592496357,"Cytosolic and membrane-bound forms of glutathione S-transferase are encoded by two distinct supergene families. At present, eight distinct classes of the soluble cytoplasmic mammalian glutathione S-transferases have been identified: alpha, kappa, mu, omega, pi, sigma, theta and zeta. This gene encodes a glutathione S-transferase that belongs to the mu class. The mu class of enzymes functions in the detoxification of electrophilic compounds, including carcinogens, therapeutic drugs, environmental toxins and products of oxidative stress, by conjugation with glutathione. The genes encoding the mu class of enzymes are organized in a gene cluster on chromosome 1p13.3 and are known to be highly polymorphic. These genetic variations can change an individual's susceptibility to carcinogens and toxins as well as affect the toxicity and efficacy of certain drugs. Null mutations of this class mu gene have been linked with an increase in a number of cancers, likely due to an increased susceptibility to environmental toxins and carcinogens. Multiple protein isoforms are encoded by transcript variants of this gene.", GSTM1-1; GSTM1a-1a; GSTM1b-1b,
+GSTM12,Up Regulated EGCG+Quercentin,-0.619340786,,,
+HBZ,Fold Change EGCG,1.197956465,"Zeta-globin is an alpha-like hemoglobin. The zeta-globin polypeptide is synthesized in the yolk sac of the early embryo, while alpha-globin is produced throughout fetal and adult life. The zeta-globin gene is a member of the human alpha-globin gene cluster that includes five functional genes and two pseudogenes. The order of genes is: 5' - zeta - pseudozeta - mu - pseudoalpha-1 - alpha-2 -alpha-1 - theta1 - 3'.",hemoglobin subunit zeta,
+HBZ1,Down Regulated EGCG+Quercentin,0.930475786,,zeta-1 globin processed pseudogene,
+HBZ2,Up Regulated EGCG,-0.962576786,,zeta globin pseudogene,
+HBZP1,Up Regulated EGCG,-0.570047,,hemoglobin subunit zeta pseudogene 1,
+HLA-DOA,Down Regulated EGCG+Quercentin,0.427822643,"HLA-DOA belongs to the HLA class II alpha chain paralogues. HLA-DOA forms a heterodimer with HLA-DOB. The heterodimer, HLA-DO, is found in lysosomes in B cells and regulates HLA-DM-mediated peptide loading on MHC class II molecules. In comparison with classical HLA class II molecules, this gene exhibits very little sequence variation, especially at the protein level. ","major histocompatibility complex, class II, DO alpha",
+HMGB3P24,Fold Change EGCG+Quercentin,1.096735273,,high mobility group box 3 pseudogene 24,
+HMGB3P241,Up Regulated EGCG+Quercentin,-0.414488714,,,
+IFIT1B,Down Regulated EGCG,0.507117286,,interferon induced protein with tetratricopeptide repeats 1B,
+IGHV3-47,Down Regulated EGCG+Quercentin,0.425214786,,immunoglobulin heavy variable 3-47 (pseudogene),
+IGKV1-33,Up Regulated EGCG,-0.417029643,,immunoglobulin kappa variable 1-33,
+IGKV1-5,Up Regulated EGCG,-0.500883714,,immunoglobulin kappa variable 1-5,
+IGKV1D-27,Down Regulated EGCG+Quercentin,0.577664571,,immunoglobulin kappa variable 1D-27 (pseudogene),
+IGKV2-24,Up Regulated EGCG,-0.398315071,,immunoglobulin kappa variable 2-24,
+IGKV2-26,Down Regulated EGCG+Quercentin,0.580853,,immunoglobulin kappa variable 2-26 (pseudogene),
+IGKV2-30,Up Regulated EGCG,-0.4379165,,immunoglobulin kappa variable 2-30,
+IGKV3-11,Up Regulated EGCG,-0.441037357,,immunoglobulin kappa variable 3-11,
 IL1RL1,Down Regulated EGCG+Quercentin,0.458572786,"The protein encoded by this gene is a member of the interleukin 1 receptor family. Studies of the similar gene in mouse suggested that this receptor can be induced by proinflammatory stimuli, and may be involved in the function of helper T cells. This gene, interleukin 1 receptor, type I (IL1R1), interleukin 1 receptor, type II (IL1R2) and interleukin 1 receptor-like 2 (IL1RL2) form a cytokine receptor gene cluster in a region mapped to chromosome 2q12. Alternative splicing of this gene results in multiple transcript variants. [provided by RefSeq, Jul 2008]
 Annotation information
-    Note: This gene, IL1RL1 (GeneID: 9173) which has the alias ST2, is found on chromosome 2. IL1RL1 encodes a member of the interleukin 1 receptor family. IL1RL1 has been confused in the published literature with ST2 (GeneID: 6761) on chromosome 11 ",interleukin 1 receptor like 1,ncbi gene
-TSPAN7,Down Regulated EGCG,0.550077786,"The protein encoded by this gene is a member of the transmembrane 4 superfamily, also known as the tetraspanin family. Most of these members are cell-surface proteins that are characterized by the presence of four hydrophobic domains. The proteins mediate signal transduction events that play a role in the regulation of cell development, activation, growth and motility. This encoded protein is a cell surface glycoprotein and may have a role in the control of neurite outgrowth. It is known to complex with integrins. This gene is associated with X-linked cognitive disability and neuropsychiatric diseases such as Huntington's chorea, fragile X syndrome and myotonic dystrophy. ",tetraspanin 7,ncbi gene
-SLC14A1,Down Regulated EGCG,0.593538071,The protein encoded by this gene is a membrane transporter that mediates urea transport in erythrocytes. This gene forms the basis for the Kidd blood group system. ,solute carrier family 14 member 1 (Kidd blood group),ncbi gene
-NPY5R,Fold Change EGCG,1.088849457,"The protein encoded by this gene is a receptor for neuropeptide Y and peptide YY. The encoded protein appears to be involved in regulating food intake, with defects in this gene being associated with eating disorders. Also, the encoded protein is involved in a pathway that protects neuroblastoma cells from chemotherapy-induced cell death, providing a possible therapeutic target against neuroblastoma. Three transcript variants encoding the same protein have been found for this gene.",neuropeptide Y receptor Y5,ncbi gene
-LGALS2,Down Regulated EGCG,0.507206286,"The protein encoded by this gene is a soluble beta-galactoside binding lectin. The encoded protein is found as a homodimer and can bind to lymphotoxin-alpha. A single nucleotide polymorphism in an intron of this gene can alter the transcriptional level of the protein, with a resultant increased risk of myocardial infarction. ",galectin 2,ncbi gene
-ZFP57,Up Regulated EGCG,-0.4280465,The protein encoded by this gene is a zinc finger protein containing a KRAB domain. Studies in mouse suggest that this protein may function as a transcriptional repressor. Mutations in this gene have been associated with transient neonatal diabetes mellitus type 1 (TNDM1).,ZFP57 zinc finger protein,ncbi gene
-SLFN14,Down Regulated EGCG,0.614813786,The protein encoded by this gene plays an important role in platelet formation and function. Defects in this gene are a cause of thrombocytopenia with excessive bleeding,schlafen family member 14,ncbi gene
-CAV1,Up Regulated EGCG,-0.412508929,"The scaffolding protein encoded by this gene is the main component of the caveolae plasma membranes found in most cell types. The protein links integrin subunits to the tyrosine kinase FYN, an initiating step in coupling integrins to the Ras-ERK pathway and promoting cell cycle progression. The gene is a tumor suppressor gene candidate and a negative regulator of the Ras-p42/44 mitogen-activated kinase cascade. Caveolin 1 and caveolin 2 are located next to each other on chromosome 7 and express colocalizing proteins that form a stable hetero-oligomeric complex. Mutations in this gene have been associated with Berardinelli-Seip congenital lipodystrophy. Alternatively spliced transcripts encode alpha and beta isoforms of caveolin 1.",caveolin 1,ncbi gene
-GPR87,Fold Change EGCG,1.086751807,This gene encodes a G protein-coupled receptor and is located in a cluster of G protein-couple receptor genes on chromosome 3. The encoded protein has been shown to be overexpressed in lung squamous cell carcinoma (PMID:18057535) and regulated by p53 (PMID:19602589).,G protein-coupled receptor 87,ncbi gene
-ORM1,Down Regulated EGCG,0.531246214,"This gene encodes a key acute phase plasma protein. Because of its increase due to acute inflammation, this protein is classified as an acute-phase reactant. The specific function of this protein has not yet been determined; however, it may be involved in aspects of immunosuppression. ",orosomucoid 1,ncbi gene
-C4BPA,Up Regulated EGCG+Quercentin,-0.434463429,"This gene encodes a member of a superfamily of proteins composed predominantly of tandemly arrayed short consensus repeats of approximately 60 amino acids. Along with a single, unique beta-chain, seven identical alpha-chains encoded by this gene assemble into the predominant isoform of C4b-binding protein, a multimeric protein that controls activation of the complement cascade through the classical pathway. The genes encoding both alpha and beta chains are located adjacent to each other on human chromosome 1 in the regulator of complement activation gene cluster. Two pseudogenes of this gene are also found in the cluster.",complement component 4 binding protein alpha,ncbi gene
-FOLR3,Down Regulated EGCG+Quercentin,0.392749286,"This gene encodes a member of the folate receptor (FOLR) family of proteins, which have a high affinity for folic acid and for several reduced folic acid derivatives, and mediate delivery of 5-methyltetrahydrofolate to the interior of cells. Expression of this gene may be elevated in ovarian and primary peritoneal carcinoma. This gene is present in a gene cluster on chromosome 11. Alternative splicing results in multiple transcript variants.",folate receptor gamma,ncbi gene
-ALOX15,Down Regulated EGCG+Quercentin,0.564082714,"This gene encodes a member of the lipoxygenase family of proteins. The encoded enzyme acts on various polyunsaturated fatty acid substrates to generate various bioactive lipid mediators such as eicosanoids, hepoxilins, lipoxins, and other molecules. The encoded enzyme and its reaction products have been shown to regulate inflammation and immunity. Multiple pseudogenes of this gene have been identified in the human genome. ",arachidonate 15-lipoxygenase,ncbi gene
-LRP1,Down Regulated EGCG,0.5302475,"This gene encodes a member of the low-density lipoprotein receptor family of proteins. The encoded preproprotein is proteolytically processed by furin to generate 515 kDa and 85 kDa subunits that form the mature receptor (PMID: 8546712). This receptor is involved in several cellular processes, including intracellular signaling, lipid homeostasis, and clearance of apoptotic cells. In addition, the encoded protein is necessary for the alpha 2-macroglobulin-mediated clearance of secreted amyloid precursor protein and beta-amyloid, the main component of amyloid plaques found in Alzheimer patients. Expression of this gene decreases with age and has been found to be lower than controls in brain tissue from Alzheimer's disease patients.",LDL receptor related protein 1,ncbi gene
-SFRP2,Down Regulated EGCG,0.542122786,This gene encodes a member of the SFRP family that contains a cysteine-rich domain homologous to the putative Wnt-binding site of Frizzled proteins. SFRPs act as soluble modulators of Wnt signaling. Methylation of this gene is a potential marker for the presence of colorectal cancer.,secreted frizzled related protein 2,ncbi gene
-SLPI,Up Regulated EGCG+Quercentin,-0.4022155,"This gene encodes a secreted inhibitor which protects epithelial tissues from serine proteases. It is found in various secretions including seminal plasma, cervical mucus, and bronchial secretions, and has affinity for trypsin, leukocyte elastase, and cathepsin G. Its inhibitory effect contributes to the immune response by protecting epithelial surfaces from attack by endogenous proteolytic enzymes. This antimicrobial protein has antibacterial, antifungal and antiviral activity. ",secretory leukocyte peptidase inhibitor,ncbi gene
-SLC3A1,Up Regulated EGCG+Quercentin,-0.393528286,"This gene encodes a type II membrane glycoprotein which is one of the components of the renal amino acid transporter which transports neutral and basic amino acids in the renal tubule and intestinal tract. Mutations and deletions in this gene are associated with cystinuria. Alternatively spliced transcript variants have been described, but their biological validity has not been determined. ",solute carrier family 3 member 1,ncbi gene
-CD274,Up Regulated EGCG+Quercentin,-0.432865357,"This gene encodes an immune inhibitory receptor ligand that is expressed by hematopoietic and non-hematopoietic cells, such as T cells and B cells and various types of tumor cells. The encoded protein is a type I transmembrane protein that has immunoglobulin V-like and C-like domains. Interaction of this ligand with its receptor inhibits T-cell activation and cytokine production. During infection or inflammation of normal tissue, this interaction is important for preventing autoimmunity by maintaining homeostasis of the immune response. In tumor microenvironments, this interaction provides an immune escape for tumor cells through cytotoxic T-cell inactivation. Expression of this gene in tumor cells is considered to be prognostic in many types of human malignancies, including colon cancer and renal cell carcinoma. Alternative splicing results in multiple transcript variants.",CD274 molecule,ncbi gene
-OCLN,Up Regulated EGCG+Quercentin,-0.4780635,"This gene encodes an integral membrane protein that is required for cytokine-induced regulation of the tight junction paracellular permeability barrier. Mutations in this gene are thought to be a cause of band-like calcification with simplified gyration and polymicrogyria (BLC-PMG), an autosomal recessive neurologic disorder that is also known as pseudo-TORCH syndrome. Alternative splicing results in multiple transcript variants. A related pseudogene is present 1.5 Mb downstream on the q arm of chromosome 5.",occludin,ncbi gene
-FAU,Fold Change EGCG,1.195198318,"This gene is the cellular homolog of the fox sequence in the Finkel-Biskis-Reilly murine sarcoma virus (FBR-MuSV). It encodes a fusion protein consisting of the ubiquitin-like protein fubi at the N terminus and ribosomal protein S30 at the C terminus. It has been proposed that the fusion protein is post-translationally processed to generate free fubi and free ribosomal protein S30. Fubi is a member of the ubiquitin family, and ribosomal protein S30 belongs to the S30E family of ribosomal proteins. Whereas the function of fubi is currently unknown, ribosomal protein S30 is a component of the 40S subunit of the cytoplasmic ribosome and displays antimicrobial activity. Pseudogenes derived from this gene are present in the genome. Similar to ribosomal protein S30, ribosomal proteins S27a and L40 are synthesized as fusion proteins with ubiquitin.",FAU ubiquitin like and ribosomal protein S30 fusion,ncbi gene
-XK,Down Regulated EGCG,0.560327643,"This locus controls the synthesis of the Kell blood group 'precursor substance' (Kx). Mutations in this gene have been associated with McLeod syndrome, an X-linked, recessive disorder characterized by abnormalities in the neuromuscular and hematopoietic systems. The encoded protein has structural characteristics of prokaryotic and eukaryotic membrane transport proteins.",X-linked Kx blood group,ncbi gene
-ALDH5A1,Down Regulated EGCG,0.509673429,"This protein belongs to the aldehyde dehydrogenase family of proteins. This gene encodes a mitochondrial NAD(+)-dependent succinic semialdehyde dehydrogenase. A deficiency of this enzyme, known as 4-hydroxybutyricaciduria, is a rare inborn error in the metabolism of the neurotransmitter 4-aminobutyric acid (GABA). In response to the defect, physiologic fluids from patients accumulate GHB, a compound with numerous neuromodulatory properties. Two transcript variants encoding distinct isoforms have been identified for this gene. ",aldehyde dehydrogenase 5 family member A1,ncbi gene
-TMEM176A,Fold Change EGCG,1.121293865,TMEM176A (Transmembrane Protein 176A) is a Protein Coding gene. An important paralog of this gene is TMEM176B.,transmembrane protein 176A,genecards.org
-VTRNA1-1,Down Regulated EGCG+Quercentin,0.423781429,"Vaults are large cytoplasmic ribonucleoproteins of about 13 MD. They are composed of a major vault protein, MVP (MIM 605088), 2 minor vault proteins, TEP1 (MIM 601686) and PARP4 (MIM 607519), and a nontranslated RNA component, VTRNA1-1 (Kickhoefer et al., 1999 [PubMed 10551828]",vault RNA 1-1,ncbi gene
-HBZ,Fold Change EGCG,1.197956465,"Zeta-globin is an alpha-like hemoglobin. The zeta-globin polypeptide is synthesized in the yolk sac of the early embryo, while alpha-globin is produced throughout fetal and adult life. The zeta-globin gene is a member of the human alpha-globin gene cluster that includes five functional genes and two pseudogenes. The order of genes is: 5' - zeta - pseudozeta - mu - pseudoalpha-1 - alpha-2 -alpha-1 - theta1 - 3'.",hemoglobin subunit zeta,ncbi gene
-ZNF847P,Fold Change EGCG+Quercentin,1.128369217,"ZNF847P (Zinc Finger Protein 847, Pseudogene) is a Pseudogene. ","zinc finger protein 847, pseudogene",genecards.org
-HBZ2,Up Regulated EGCG,-0.962576786,,zeta globin pseudogene,
-RPS71,Up Regulated EGCG+Quercentin,-0.393168429,,ribosomal protein S7,
-ALOX151,Up Regulated EGCG,-0.459863714,,,
-COX7B1,Up Regulated EGCG+Quercentin,-0.535390643,,,
-CYP4F35P1,Up Regulated EGCG,-0.463098,,,
-FAU2,Up Regulated EGCG,-0.571505357,,,
-GSTM12,Up Regulated EGCG+Quercentin,-0.619340786,,,
-HMGB3P241,Up Regulated EGCG+Quercentin,-0.414488714,,,
+    Note: This gene, IL1RL1 (GeneID: 9173) which has the alias ST2, is found on chromosome 2. IL1RL1 encodes a member of the interleukin 1 receptor family. IL1RL1 has been confused in the published literature with ST2 (GeneID: 6761) on chromosome 11 ",interleukin 1 receptor like 1,
+KARSP3,Fold Change EGCG+Quercentin,1.201475196,,lysyl-tRNA synthetase 1 pseudogene 3,
 KARSP31,Up Regulated EGCG+Quercentin,-0.830724786,,,
+KIAA1324,Down Regulated EGCG+Quercentin,0.503210071,Expression of this gene is induced by estrogen and the encoded protein has been characterized as a transmembrane protein. The encoded protein has been found in to correlate with survival in certain carcinomas (PMID: 21102415) and may be important for cellular response to stress (PMID: 21072319). Alternative splicing results in multiple transcript variants. ,KIAA1324,
+LGALS2,Down Regulated EGCG,0.507206286,"The protein encoded by this gene is a soluble beta-galactoside binding lectin. The encoded protein is found as a homodimer and can bind to lymphotoxin-alpha. A single nucleotide polymorphism in an intron of this gene can alter the transcriptional level of the protein, with a resultant increased risk of myocardial infarction. ",galectin 2,
+LINC00189,Down Regulated EGCG,0.573705571,,long intergenic non-protein coding RNA 189,
+LINC01356,Fold Change EGCG+Quercentin,1.096309372,,long intergenic non-protein coding RNA 1356,
 LINC013561,Up Regulated EGCG+Quercentin,-0.428674857,,,
+LRP1,Down Regulated EGCG,0.5302475,"This gene encodes a member of the low-density lipoprotein receptor family of proteins. The encoded preproprotein is proteolytically processed by furin to generate 515 kDa and 85 kDa subunits that form the mature receptor (PMID: 8546712). This receptor is involved in several cellular processes, including intracellular signaling, lipid homeostasis, and clearance of apoptotic cells. In addition, the encoded protein is necessary for the alpha 2-macroglobulin-mediated clearance of secreted amyloid precursor protein and beta-amyloid, the main component of amyloid plaques found in Alzheimer patients. Expression of this gene decreases with age and has been found to be lower than controls in brain tissue from Alzheimer's disease patients.",LDL receptor related protein 1,
+MIR548AD,Fold Change EGCG,1.088273576,"microRNAs (miRNAs) are short (20-24 nt) non-coding RNAs that are involved in post-transcriptional regulation of gene expression in multicellular organisms by affecting both the stability and translation of mRNAs. miRNAs are transcribed by RNA polymerase II as part of capped and polyadenylated primary transcripts (pri-miRNAs) that can be either protein-coding or non-coding. The primary transcript is cleaved by the Drosha ribonuclease III enzyme to produce an approximately 70-nt stem-loop precursor miRNA (pre-miRNA), which is further cleaved by the cytoplasmic Dicer ribonuclease to generate the mature miRNA and antisense miRNA star (miRNA*) products. The mature miRNA is incorporated into a RNA-induced silencing complex (RISC), which recognizes target mRNAs through imperfect base pairing with the miRNA and most commonly results in translational inhibition or destabilization of the target mRNA. The RefSeq represents the predicted microRNA stem-loop.",microRNA 548ad,
+MTCO1P11,Fold Change EGCG+Quercentin,1.09497767,,MT-CO1 pseudogene 11,
+MTCO2P29,Fold Change EGCG,1.123978659,,MT-CO2 pseudogene 29,
+NPY5R,Fold Change EGCG,1.088849457,"The protein encoded by this gene is a receptor for neuropeptide Y and peptide YY. The encoded protein appears to be involved in regulating food intake, with defects in this gene being associated with eating disorders. Also, the encoded protein is involved in a pathway that protects neuroblastoma cells from chemotherapy-induced cell death, providing a possible therapeutic target against neuroblastoma. Three transcript variants encoding the same protein have been found for this gene.",neuropeptide Y receptor Y5,
+OCLN,Up Regulated EGCG+Quercentin,-0.4780635,"This gene encodes an integral membrane protein that is required for cytokine-induced regulation of the tight junction paracellular permeability barrier. Mutations in this gene are thought to be a cause of band-like calcification with simplified gyration and polymicrogyria (BLC-PMG), an autosomal recessive neurologic disorder that is also known as pseudo-TORCH syndrome. Alternative splicing results in multiple transcript variants. A related pseudogene is present 1.5 Mb downstream on the q arm of chromosome 5.",occludin,
+OR5M10,Fold Change EGCG+Quercentin,1.104773253,"Olfactory receptors interact with odorant molecules in the nose, to initiate a neuronal response that triggers the perception of a smell. The olfactory receptor proteins are members of a large family of G-protein-coupled receptors (GPCR) arising from single coding-exon genes. Olfactory receptors share a 7-transmembrane domain structure with many neurotransmitter and hormone receptors and are responsible for the recognition and G protein-mediated transduction of odorant signals. The olfactory receptor gene family is the largest in the genome. The nomenclature assigned to the olfactory receptor genes and proteins for this organism is independent of other organisms. ",olfactory receptor family 5 subfamily M member 10,
+ORM1,Down Regulated EGCG,0.531246214,"This gene encodes a key acute phase plasma protein. Because of its increase due to acute inflammation, this protein is classified as an acute-phase reactant. The specific function of this protein has not yet been determined; however, it may be involved in aspects of immunosuppression. ",orosomucoid 1,
+OSBP2,Down Regulated EGCG,0.493473286,The protein encoded by this gene contains a pleckstrin homology (PH) domain and an oxysterol-binding region. It binds oxysterols such as 7-ketocholesterol and may inhibit their cytotoxicity. Alternatively spliced transcript variants encoding multiple isoforms have been observed for this gene.,oxysterol binding protein 2,
+POU2AF1,Up Regulated EGCG,-0.409293857,,"
+    POU class 2 homeobox associating factor 1",
+PSG1,Fold Change EGCG,1.098186428,"The human placenta is a multihormonal endocrine organ that produces hormones, enzymes, and other molecules that support fetal survival and development. Pregnancy-specific beta-1-glycoprotein (PSBG, PSG) is a major product of the syncytiotrophoblast, reaching concentrations of 100 to 290 mg/l at term in the serum of pregnant women (Horne et al., 1976 [PubMed 971765]). PSG is a member of the immunoglobulin (Ig) superfamily (Watanabe and Chou, 1988 [PubMed 3257488]; Streydio et al., 1988 [PubMed 3260773])",pregnancy specific beta-1-glycoprotein 1,
+RN7SKP198,Fold Change EGCG,1.092841824,,RN7SK pseudogene 198,
+RN7SL218P,Down Regulated EGCG+Quercentin,0.392156857,,"RNA, 7SL, cytoplasmic 218, pseudogene",
+RN7SL452P,Fold Change EGCG,1.086796183,,"RNA, 7SL, cytoplasmic 452, pseudogene",
+RNA5SP242,Down Regulated EGCG,0.498469,,"RNA, 5S ribosomal pseudogene 242",
+RNA5SP30,Fold Change EGCG+Quercentin,1.116538609,,"RNA, 5S ribosomal pseudogene 30",
+RNA5SP301,Up Regulated EGCG+Quercentin,-0.460252214,,"RNA, 5S ribosomal pseudogene 301",
+RNA5SP449,Fold Change EGCG,1.153036999,,"RNA, 5S ribosomal pseudogene 449",
 RNA5SP4491,Up Regulated EGCG,-0.425292214,,,
+RNA5SP63,Fold Change EGCG,1.089967912,,"RNA, 5S ribosomal pseudogene 63",
 RNA5SP631,Up Regulated EGCG,-0.500749643,,,
+RNF182,Down Regulated EGCG,0.583718429,,ring finger protein 182,
+RNU4-2,Down Regulated EGCG,0.724742571,,"RNA, U4 small nuclear 2",
+RNU4-51P,Fold Change EGCG+Quercentin,1.173941987,,"RNA, U4 small nuclear 51, pseudogene",
 RNU4-51P1,Up Regulated EGCG+Quercentin,-0.609408286,,,
+RNU5A-1,Down Regulated EGCG+Quercentin,0.396240143,,"RNA, U5A small nuclear 1",
+RNU6-1024P,Fold Change EGCG,1.086352981,,"RNA, U6 small nuclear 1024, pseudogene",
 RNU6-1024P1,Fold Change EGCG+Quercentin,1.135929703,,,
 RNU6-1024P2,Up Regulated EGCG+Quercentin,-0.566794143,,,
+RNU6-1124P,Down Regulated EGCG+Quercentin,0.623611429,,"RNA, U6 small nuclear 1124, pseudogene",
+RNU6-1244P,Fold Change EGCG+Quercentin,1.162781421,,"RNA, U6 small nuclear 1244, pseudogene",
+RNU6-1315P,Down Regulated EGCG+Quercentin,0.514345,,"RNA, U6 small nuclear 1315, pseudogene",
+RNU6-263P,Fold Change EGCG,1.082968456,,"RNA, U6 small nuclear 263, pseudogene",
+RNU6-403P,Fold Change EGCG+Quercentin,1.13767904,,"RNA, U6 small nuclear 403, pseudogene",
+RNU6-522P,Up Regulated EGCG+Quercentin,-0.419670286,,"RNA, U6 small nuclear 522, pseudogene",
+RNU6-853P,Fold Change EGCG+Quercentin,1.126844065,,"RNA, U6 small nuclear 853, pseudogene",
 RNU6-853P1,Up Regulated EGCG+Quercentin,-0.392963857,,,
+RNU6-893P,Fold Change EGCG,1.084522988,,"RNA, U6 small nuclear 893, pseudogene",
 RNU6-893P1,Up Regulated EGCG,-0.409615571,,,
+RNU6-921P,Down Regulated EGCG+Quercentin,0.599531214,,RNU6-921P,
+RNU6-943P,Fold Change EGCG+Quercentin,1.125664513,,"RNA, U6 small nuclear 943, pseudogene",
 RNU6-943P1,Up Regulated EGCG+Quercentin,-0.399695857,,,
+RNU6-98P,Fold Change EGCG+Quercentin,1.089661746,,"RNA, U6 small nuclear 98, pseudogene",
+RNY1P5,Fold Change EGCG+Quercentin,1.100282662,,RNY1 pseudogene 5,
+RNY3P16,Fold Change EGCG,1.152998074,,RNY3 pseudogene 16,
 RNY3P161,Up Regulated EGCG,-0.561234571,,,
+RPL36AP26,Up Regulated EGCG+Quercentin,-0.403493429,,ribosomal protein L36a pseudogene 26,
+RPPH1,Down Regulated EGCG,0.525648357,,ribonuclease P RNA component H1,
+RPS7,Fold Change EGCG+Quercentin,1.091646914,"Ribosomes, the organelles that catalyze protein synthesis, consist of a small 40S subunit and a large 60S subunit. Together these subunits are composed of 4 RNA species and approximately 80 structurally distinct proteins. This gene encodes a ribosomal protein that is a component of the 40S subunit. The protein belongs to the S7E family of ribosomal proteins. It is located in the cytoplasm. As is typical for genes encoding ribosomal proteins, there are multiple processed pseudogenes of this gene dispersed through the genome. ",ribosomal protein S7,
+RPS71,Up Regulated EGCG+Quercentin,-0.393168429,,ribosomal protein S7,
+SCARNA10,Down Regulated EGCG,0.587677071,,small Cajal body-specific RNA 10,
+SFRP2,Down Regulated EGCG,0.542122786,This gene encodes a member of the SFRP family that contains a cysteine-rich domain homologous to the putative Wnt-binding site of Frizzled proteins. SFRPs act as soluble modulators of Wnt signaling. Methylation of this gene is a potential marker for the presence of colorectal cancer.,secreted frizzled related protein 2,
+SLC14A1,Down Regulated EGCG,0.593538071,The protein encoded by this gene is a membrane transporter that mediates urea transport in erythrocytes. This gene forms the basis for the Kidd blood group system. ,solute carrier family 14 member 1 (Kidd blood group),
+SLC3A1,Up Regulated EGCG+Quercentin,-0.393528286,"This gene encodes a type II membrane glycoprotein which is one of the components of the renal amino acid transporter which transports neutral and basic amino acids in the renal tubule and intestinal tract. Mutations and deletions in this gene are associated with cystinuria. Alternatively spliced transcript variants have been described, but their biological validity has not been determined. ",solute carrier family 3 member 1,
+SLFN14,Down Regulated EGCG,0.614813786,The protein encoded by this gene plays an important role in platelet formation and function. Defects in this gene are a cause of thrombocytopenia with excessive bleeding,schlafen family member 14,
+SLPI,Up Regulated EGCG+Quercentin,-0.4022155,"This gene encodes a secreted inhibitor which protects epithelial tissues from serine proteases. It is found in various secretions including seminal plasma, cervical mucus, and bronchial secretions, and has affinity for trypsin, leukocyte elastase, and cathepsin G. Its inhibitory effect contributes to the immune response by protecting epithelial surfaces from attack by endogenous proteolytic enzymes. This antimicrobial protein has antibacterial, antifungal and antiviral activity. ",secretory leukocyte peptidase inhibitor,
+SMPD3,Down Regulated EGCG+Quercentin,0.423663286,,sphingomyelin phosphodiesterase 3,
+SNORA23,Down Regulated EGCG+Quercentin,0.412260857,,"small nucleolar RNA, H/ACA box 23",
+SNORA38B,Down Regulated EGCG+Quercentin,0.445933286,,"small nucleolar RNA, H/ACA box 38B",
+TMEM176A,Fold Change EGCG,1.121293865,,transmembrane protein 176A,
 TMEM176A1,Down Regulated EGCG+Quercentin,0.519025857,,,
 TMEM176A2,Up Regulated EGCG,-1.014936571,,,
+TMEM176B,Fold Change EGCG,1.105664164,,transmembrane protein 176B,
 TMEM176B1,Down Regulated EGCG+Quercentin,0.420096643,,,
 TMEM176B2,Up Regulated EGCG,-0.807481214,,,
+TMTC1,Down Regulated EGCG,0.68544,,transmembrane O-mannosyltransferase targeting cadherins 1,
+TREML4,Up Regulated EGCG,-0.493424214,,triggering receptor expressed on myeloid cells like 4,
+TSPAN7,Down Regulated EGCG,0.550077786,"The protein encoded by this gene is a member of the transmembrane 4 superfamily, also known as the tetraspanin family. Most of these members are cell-surface proteins that are characterized by the presence of four hydrophobic domains. The proteins mediate signal transduction events that play a role in the regulation of cell development, activation, growth and motility. This encoded protein is a cell surface glycoprotein and may have a role in the control of neurite outgrowth. It is known to complex with integrins. This gene is associated with X-linked cognitive disability and neuropsychiatric diseases such as Huntington's chorea, fragile X syndrome and myotonic dystrophy. ",tetraspanin 7,
+UBE2O,Down Regulated EGCG,0.495240571,,ubiquitin conjugating enzyme E2 O,
+VTRNA1-1,Down Regulated EGCG+Quercentin,0.423781429,"Vaults are large cytoplasmic ribonucleoproteins of about 13 MD. They are composed of a major vault protein, MVP (MIM 605088), 2 minor vault proteins, TEP1 (MIM 601686) and PARP4 (MIM 607519), and a nontranslated RNA component, VTRNA1-1 (Kickhoefer et al., 1999 [PubMed 10551828]",vault RNA 1-1,
+XK,Down Regulated EGCG,0.560327643,"This locus controls the synthesis of the Kell blood group 'precursor substance' (Kx). Mutations in this gene have been associated with McLeod syndrome, an X-linked, recessive disorder characterized by abnormalities in the neuromuscular and hematopoietic systems. The encoded protein has structural characteristics of prokaryotic and eukaryotic membrane transport proteins.",X-linked Kx blood group,
+ZFP57,Up Regulated EGCG,-0.4280465,The protein encoded by this gene is a zinc finger protein containing a KRAB domain. Studies in mouse suggest that this protein may function as a transcriptional repressor. Mutations in this gene have been associated with transient neonatal diabetes mellitus type 1 (TNDM1).,ZFP57 zinc finger protein,
+ZNF578,Fold Change EGCG,1.083705678,,zinc finger protein 578,
+ZNF847P,Fold Change EGCG+Quercentin,1.128369217,,"zinc finger protein 847, pseudogene",
