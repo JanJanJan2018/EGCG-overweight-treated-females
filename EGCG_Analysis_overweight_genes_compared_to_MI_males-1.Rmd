@@ -7,6 +7,29 @@ output:
   word_document: default
 ---
 
+This Rmarkdown file uses R to analyze the gene expressions of two different National Center for Bioinformatics Gene Expression Omnibus (GEO) studies on blood samples. One study was done on overweight women treated with and without epigallocatechin (EGCG) which is a green tea flavanoid, and the other studied males who were healthy against those males with myocardial infarction or MI for short. These studies can be found and manually extracted for data samples pulling each sample data one by one in some cases. They are both array studies of blood gene expressions in their respective study. To verify this data, follow these GEO links:
+
+MI males:
+- https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141512
+
+overweight females using EGCG before and after:
+- https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74560
+
+The results of this analysis provided insight into the top genes that showed the highest or the lowest fold change in comparison between five different groups between sample membership by using the means of each gene across each sample and the fold change in one group compared to another.
+
+The gene HBZ is overexpressed in overweight females compared to either group of males by 30% and by 20% in overweight females using EGCG compared to overweight females not using EGCG. But shows a negligible change between males with MI compared to healthy males by less than 1%. HBZ is an iron ion binding and oxygen binding protein coding gene and this gene increases in overweight females when drinking EGCG green tea extract. 
+
+The gene THBS1 was found to be under expressed in overweight females who use EGCG and over expressed in males with MI.Given the gene function summary of THBS1 from genecards.org, this could imply that THBS1 relaxes the nervous system in the females and that it is involved in angiogenesis in males with the heart disease MI.Since healthy males have a 20% under expression when compared to overweight females who don't use EGCG, it could mean that the overweight females also have angiogenesis in their bodies related to heart disease, tumors forming, and blood clots from platelet aggregation. This gene could be a target to look for when determining the health of a person, the state of stress, or risk of other diseases just mentioned.
+
+The gene OR7D2 was found in males with MI to have a 15% under expression compared to healthy males and females are 36-39% over expressing this gene compared to males with or without MI. Given the gene function for OR7D2, this could mean that males with MI are having smells blocked more than healthy males and that overweight females use their sense of smell more than males. MOre importantly, the drop in this gene expression in males with MI implies they have their smell blocked by other neuron responses like pain or side effects of having MI.
+
+The gene CA1 is overexpressed in overweight females more than 375% the amount of healthy males and 367% more than males with MI. The changes in expression are almost negligible within each subcategory of gender comparisons. The gene summary for CA1 implies that overweight females might be expressing a lot of this gene than males because they have more gastric acid, or bone resorption of calcium, or have more saliva, create more cerebrospinal fluid, have more carbon dioxide in their blood that needs to be put through reversible hydration. Since the overweight females using EGCG show decreased gene expression levels of this gene by 3% compared to those overweight females not using EGCG, this could mean that EGCG lowers the need for this gene in those biological processes. 
+
+The gene MIR548AD is under expressed in overweight females compared to males with MI and only slightly in males with MI compared to healthy males and also more expressed in overweight females using EGCG compared to overweight females not using EGCG. This implies that males with MI and females using EGCG have more gene silencing or gene stabilization happening in their bodies. Since MIR548AD is a microRNA that is involved in stabilizing and translating messenger RNA (mRNA), it suggest that males have a faster metabolism than females and that overweight females who use EGCG increase their metabolism above overweight females who don't use EGCG. 
+
+
+
+
 
 
 Read in the EGCG files of pre and post treatment of overweight females given EGCG-green tea extract or EGCG AND flavanoids
@@ -261,8 +284,8 @@ eg_2_MI <- read.csv('fold_change_5_groups-OW.csv', sep=',', row.names=1)
 
 What genes were the 5 most expressed when comparing overweight females to overweight females treated with EGCG green tea extract?
 ```{r}
-Top5_EGCG <- eg_2_MI[order(MI_2_eg$Fold_Change_Post_EGCG_to_Overweight_Females,decreasing=TRUE)[1:5],6:10]
-row.names(Top5_EGCG) <- row.names(MI_2_eg[order(MI_2_eg$Fold_Change_Post_EGCG_to_Overweight_Females,decreasing=TRUE),])[1:5]
+Top5_EGCG <- eg_2_MI[order(eg_2_MI$Fold_Change_Post_EGCG_to_Overweight_Females,decreasing=TRUE)[1:5],6:10]
+row.names(Top5_EGCG) <- row.names(eg_2_MI[order(eg_2_MI$Fold_Change_Post_EGCG_to_Overweight_Females,decreasing=TRUE),])[1:5]
 row.names(Top5_EGCG)
 ```
 
@@ -287,8 +310,8 @@ This gene increases in overweight females when drinking EGCG green tea extract.
 
 What genes were the 5 least expressed when comparing overweight females to overweight females treated with EGCG green tea extract?
 ```{r}
-Least5_EGCG <- eg_2_MI[order(MI_2_eg$Fold_Change_Post_EGCG_to_Overweight_Females,decreasing=FALSE)[1:5],6:10]
-row.names(Least5_EGCG) <- row.names(MI_2_eg[order(eg_2_MI$Fold_Change_Post_EGCG_to_Overweight_Females,decreasing=FALSE),])[1:5]
+Least5_EGCG <- eg_2_MI[order(eg_2_MI$Fold_Change_Post_EGCG_to_Overweight_Females,decreasing=FALSE)[1:5],6:10]
+row.names(Least5_EGCG) <- row.names(eg_2_MI[order(eg_2_MI$Fold_Change_Post_EGCG_to_Overweight_Females,decreasing=FALSE),])[1:5]
 row.names(Least5_EGCG)
 ```
 Plot the least expressed genes in fold change of overweight females treated with EGCG to overweight females not treated with EGCG.
@@ -312,8 +335,8 @@ Genecards.org says this gene, VTRNA1-1, is called vault RNA 1-1, and is a large 
 
 What genes were the 5 most expressed when comparing males with Myocardial infarction to healthy males?
 ```{r}
-Top5_MI <- eg_2_MI[order(MI_2_eg$Fold_Change_MI_Males_to_Healthy_Males,decreasing=TRUE)[1:5],6:10]
-row.names(Top5_MI) <- row.names(eg_2_MI[order(MI_2_eg$Fold_Change_MI_Males_to_Healthy_Males, decreasing=TRUE),])[1:5]
+Top5_MI <- eg_2_MI[order(eg_2_MI$Fold_Change_MI_Males_to_Healthy_Males,decreasing=TRUE)[1:5],6:10]
+row.names(Top5_MI) <- row.names(eg_2_MI[order(eg_2_MI$Fold_Change_MI_Males_to_Healthy_Males, decreasing=TRUE),])[1:5]
 row.names(Top5_MI)
 ```
 
@@ -341,8 +364,8 @@ The fact that it is under expressed in females who use EGCG and over expressed i
 
 What genes were the 5 least expressed when comparing Myocardial infarction males to healthy males?
 ```{r}
-Least5_MI <- eg_2_MI[order(MI_2_eg$Fold_Change_MI_Males_to_Healthy_Males,decreasing=FALSE)[1:5],6:10]
-row.names(Least5_MI) <- row.names(eg_2_MI[order(MI_2_eg$Fold_Change_MI_Males_to_Healthy_Males, decreasing=FALSE),])[1:5]
+Least5_MI <- eg_2_MI[order(eg_2_MI$Fold_Change_MI_Males_to_Healthy_Males,decreasing=FALSE)[1:5],6:10]
+row.names(Least5_MI) <- row.names(eg_2_MI[order(eg_2_MI$Fold_Change_MI_Males_to_Healthy_Males, decreasing=FALSE),])[1:5]
 row.names(Least5_MI)
 
 ```
@@ -375,7 +398,7 @@ The following group comparisons display many of the same genes in each group tha
 What genes were the most expressed when comparing males with MI to overweight females?
 ```{r}
 Top5_MI_fem <- eg_2_MI[order(eg_2_MI$Fold_Change_Overweight_Females_to_MI_Males,decreasing=TRUE)[1:5],6:10]
-row.names(Top5_MI_fem) <- row.names(MI_2_eg[order(eg_2_MI$Fold_Change_Overweight_Females_to_MI_Males, decreasing=TRUE),])[1:5]
+row.names(Top5_MI_fem) <- row.names(eg_2_MI[order(eg_2_MI$Fold_Change_Overweight_Females_to_MI_Males, decreasing=TRUE),])[1:5]
 row.names(Top5_MI_fem)
 
 ```
@@ -406,7 +429,7 @@ This given summary above for this gene could mean many things when observing tha
 What genes were the least expressed when comparing males with MI to overweight females?
 ```{r}
 Least5_MI_fem <- eg_2_MI[order(eg_2_MI$Fold_Change_Overweight_Females_to_MI_Males,decreasing=FALSE)[1:5],6:10]
-row.names(Least5_MI_fem) <- row.names(MI_2_eg[order(eg_2_MI$Fold_Change_Overweight_Females_to_MI_Males, decreasing=FALSE),])[1:5]
+row.names(Least5_MI_fem) <- row.names(eg_2_MI[order(eg_2_MI$Fold_Change_Overweight_Females_to_MI_Males, decreasing=FALSE),])[1:5]
 row.names(Least5_MI_fem)
 
 ```
