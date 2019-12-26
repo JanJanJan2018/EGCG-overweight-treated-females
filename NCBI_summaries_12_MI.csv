@@ -1,0 +1,407 @@
+"Sample GSM4205364 		Query DataSets for GSM4205364
+Status 	Public on Dec 06, 2019
+Title 	Healthy patient 6
+Sample type 	RNA
+  	
+Source name 	Blood sample from Healthy patient
+Organism 	Homo sapiens
+Characteristics 	subject group: Healthy patient
+gender: male
+subject status: Normal electrocardiogram, no history of cardiovascular diseases (CVD) and diabetes mellitus
+tissue: blood
+Growth protocol 	Six patients with first ST-segment elevation myocardial infarction (MI) were enrolled in this study. All patients were diagnosed at the National Medical Scientific Center for Cardiology (Moscow, Russia) based on symptoms of myocardial ischemia, increase of high-sensitivity cardiac troponin I (hs-cTn-I) and/or emergence of new or presumed new ST-segment elevation, new left bundle branch block or development of pathological Q waves in accordance with Third Universal Definition of MI. Hs-cTn-I was measured during the initial patient assessment (from 1 to 18 h after the onset of disease symptoms). All patients underwent coronary angiography on admission. All patients and were treated according to contemporary guidelines. A total of 6 healthy controls (HCs) (all men, mean age 51.0 ñ 7.1 years) with normal electrocardiogram, no history of cardiovascular diseases (CVD) and diabetes mellitus were included in the study; healthy controls (HCs characteristics by smoking status and body mass index were compatible to MI patients. All participants lived in European Russia.
+Extracted molecule 	total RNA
+Extraction protocol 	Blood samples were collected from MI patients 24-36 h after the disease onset and from HCs in the morning. PBMCs were isolated using Ficoll-Hypaque density gradient method (Sigma-Aldrich, St. Louis, MO, USA) within 3 h of sampling. Total RNA including small RNA was extracted using miRNeasy Mini Kit (Qiagen, Hildren, Germany) following the manufacturer's instructions. The RNA quantity was measured using the NanoDropTM spectrophotometer (Thermo Fisher Scientific, Waltham, MA, USA); the RNA integrity was assessed by QIAxcel Advanced System (Qiagen, Hilden, Germany). Samples with a RNA integrity number (RIN) value above eight were included in subsequent experiments.
+Label 	biotin
+Label protocol 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 500 ng of total RNA (GeneChip? WT PLUS Reagent Kit Manual Target Preparation for GeneChip? Whole Transcript (WT) Expression Array User Guide, 2018, Thermo Fisher Scientifi).
+  	
+Hybridization protocol 	Following fragmentation, 5.5 ug of ss-cDNA were hybridized for 16 hr at 45C on GeneChip? Human Transcriptome Array 2.0. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.
+Scan protocol 	GeneChips were scanned using the GeneChip? Scanner 3000 7G.
+Description 	Gene expression data from patients with MI
+Data processing 	Computational analysis of the microarray data files was performed using R programming language version 3.5.1. Data processing was carried out based on the affy package written in R [Gautier L, Cope L, Bolstad BM, Irizarry RA (2004). ?affy?analysis of Affymetrix GeneChip data at the probe level.? Bioinformatics, 20(3), 307?315. ISSN 1367-4803, doi: 10.1093/bioinformatics/btg405]. A biomaRt package was used to annotate the obtained data [Durinck S. et al. BioMart and Bioconductor: a powerful link between biological databases and microarray data analysis //Bioinformatics. ? 2005. ? ?. 21. ? ?. 16. ? ?. 3439-3440].
+  	
+Submission date 	Dec 05, 2019
+Last update date 	Dec 06, 2019
+Contact name 	German Osmak
+E-mail(s) 	german.osmak@gmail.com
+Organization name 	National Medical Research Center for Cardiology
+Street address 	3-ya Cherepkovskaya
+City 	Moscow
+ZIP/Postal code 	121552
+Country 	Russia
+  	
+Platform ID 	GPL17586
+Series (1) 	
+GSE141512 	Expression data for patients with myocardial infarction (MI) vs healthy patients",,,,,,
+"Sample GSM4205363 		Query DataSets for GSM4205363
+Status 	Public on Dec 06, 2019
+Title 	Healthy patient 5
+Sample type 	RNA
+  	
+Source name 	Blood sample from Healthy patient
+Organism 	Homo sapiens
+Characteristics 	subject group: Healthy patient
+gender: male
+subject status: Normal electrocardiogram, no history of cardiovascular diseases (CVD) and diabetes mellitus
+tissue: blood
+Growth protocol 	Six patients with first ST-segment elevation myocardial infarction (MI) were enrolled in this study. All patients were diagnosed at the National Medical Scientific Center for Cardiology (Moscow, Russia) based on symptoms of myocardial ischemia, increase of high-sensitivity cardiac troponin I (hs-cTn-I) and/or emergence of new or presumed new ST-segment elevation, new left bundle branch block or development of pathological Q waves in accordance with Third Universal Definition of MI. Hs-cTn-I was measured during the initial patient assessment (from 1 to 18 h after the onset of disease symptoms). All patients underwent coronary angiography on admission. All patients and were treated according to contemporary guidelines. A total of 6 healthy controls (HCs) (all men, mean age 51.0 ñ 7.1 years) with normal electrocardiogram, no history of cardiovascular diseases (CVD) and diabetes mellitus were included in the study; healthy controls (HCs characteristics by smoking status and body mass index were compatible to MI patients. All participants lived in European Russia.
+Extracted molecule 	total RNA
+Extraction protocol 	Blood samples were collected from MI patients 24-36 h after the disease onset and from HCs in the morning. PBMCs were isolated using Ficoll-Hypaque density gradient method (Sigma-Aldrich, St. Louis, MO, USA) within 3 h of sampling. Total RNA including small RNA was extracted using miRNeasy Mini Kit (Qiagen, Hildren, Germany) following the manufacturer's instructions. The RNA quantity was measured using the NanoDropTM spectrophotometer (Thermo Fisher Scientific, Waltham, MA, USA); the RNA integrity was assessed by QIAxcel Advanced System (Qiagen, Hilden, Germany). Samples with a RNA integrity number (RIN) value above eight were included in subsequent experiments.
+Label 	biotin
+Label protocol 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 500 ng of total RNA (GeneChip? WT PLUS Reagent Kit Manual Target Preparation for GeneChip? Whole Transcript (WT) Expression Array User Guide, 2018, Thermo Fisher Scientifi).
+  	
+Hybridization protocol 	Following fragmentation, 5.5 ug of ss-cDNA were hybridized for 16 hr at 45C on GeneChip? Human Transcriptome Array 2.0. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.
+Scan protocol 	GeneChips were scanned using the GeneChip? Scanner 3000 7G.
+Description 	Gene expression data from patients with MI
+Data processing 	Computational analysis of the microarray data files was performed using R programming language version 3.5.1. Data processing was carried out based on the affy package written in R [Gautier L, Cope L, Bolstad BM, Irizarry RA (2004). ?affy?analysis of Affymetrix GeneChip data at the probe level.? Bioinformatics, 20(3), 307?315. ISSN 1367-4803, doi: 10.1093/bioinformatics/btg405]. A biomaRt package was used to annotate the obtained data [Durinck S. et al. BioMart and Bioconductor: a powerful link between biological databases and microarray data analysis //Bioinformatics. ? 2005. ? ?. 21. ? ?. 16. ? ?. 3439-3440].
+  	
+Submission date 	Dec 05, 2019
+Last update date 	Dec 06, 2019
+Contact name 	German Osmak
+E-mail(s) 	german.osmak@gmail.com
+Organization name 	National Medical Research Center for Cardiology
+Street address 	3-ya Cherepkovskaya
+City 	Moscow
+ZIP/Postal code 	121552
+Country 	Russia
+  	
+Platform ID 	GPL17586
+Series (1) 	
+GSE141512 	Expression data for patients with myocardial infarction (MI) vs healthy patients",,,,,,
+"Sample GSM4205362 		Query DataSets for GSM4205362
+Status 	Public on Dec 06, 2019
+Title 	Healthy patient 4
+Sample type 	RNA
+  	
+Source name 	Blood sample from Healthy patient
+Organism 	Homo sapiens
+Characteristics 	subject group: Healthy patient
+gender: male
+subject status: Normal electrocardiogram, no history of cardiovascular diseases (CVD) and diabetes mellitus
+tissue: blood
+Growth protocol 	Six patients with first ST-segment elevation myocardial infarction (MI) were enrolled in this study. All patients were diagnosed at the National Medical Scientific Center for Cardiology (Moscow, Russia) based on symptoms of myocardial ischemia, increase of high-sensitivity cardiac troponin I (hs-cTn-I) and/or emergence of new or presumed new ST-segment elevation, new left bundle branch block or development of pathological Q waves in accordance with Third Universal Definition of MI. Hs-cTn-I was measured during the initial patient assessment (from 1 to 18 h after the onset of disease symptoms). All patients underwent coronary angiography on admission. All patients and were treated according to contemporary guidelines. A total of 6 healthy controls (HCs) (all men, mean age 51.0 ñ 7.1 years) with normal electrocardiogram, no history of cardiovascular diseases (CVD) and diabetes mellitus were included in the study; healthy controls (HCs characteristics by smoking status and body mass index were compatible to MI patients. All participants lived in European Russia.
+Extracted molecule 	total RNA
+Extraction protocol 	Blood samples were collected from MI patients 24-36 h after the disease onset and from HCs in the morning. PBMCs were isolated using Ficoll-Hypaque density gradient method (Sigma-Aldrich, St. Louis, MO, USA) within 3 h of sampling. Total RNA including small RNA was extracted using miRNeasy Mini Kit (Qiagen, Hildren, Germany) following the manufacturer's instructions. The RNA quantity was measured using the NanoDropTM spectrophotometer (Thermo Fisher Scientific, Waltham, MA, USA); the RNA integrity was assessed by QIAxcel Advanced System (Qiagen, Hilden, Germany). Samples with a RNA integrity number (RIN) value above eight were included in subsequent experiments.
+Label 	biotin
+Label protocol 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 500 ng of total RNA (GeneChip? WT PLUS Reagent Kit Manual Target Preparation for GeneChip? Whole Transcript (WT) Expression Array User Guide, 2018, Thermo Fisher Scientifi).
+  	
+Hybridization protocol 	Following fragmentation, 5.5 ug of ss-cDNA were hybridized for 16 hr at 45C on GeneChip? Human Transcriptome Array 2.0. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.
+Scan protocol 	GeneChips were scanned using the GeneChip? Scanner 3000 7G.
+Description 	Gene expression data from patients with MI
+Data processing 	Computational analysis of the microarray data files was performed using R programming language version 3.5.1. Data processing was carried out based on the affy package written in R [Gautier L, Cope L, Bolstad BM, Irizarry RA (2004). ?affy?analysis of Affymetrix GeneChip data at the probe level.? Bioinformatics, 20(3), 307?315. ISSN 1367-4803, doi: 10.1093/bioinformatics/btg405]. A biomaRt package was used to annotate the obtained data [Durinck S. et al. BioMart and Bioconductor: a powerful link between biological databases and microarray data analysis //Bioinformatics. ? 2005. ? ?. 21. ? ?. 16. ? ?. 3439-3440].
+  	
+Submission date 	Dec 05, 2019
+Last update date 	Dec 06, 2019
+Contact name 	German Osmak
+E-mail(s) 	german.osmak@gmail.com
+Organization name 	National Medical Research Center for Cardiology
+Street address 	3-ya Cherepkovskaya
+City 	Moscow
+ZIP/Postal code 	121552
+Country 	Russia
+  	
+Platform ID 	GPL17586
+Series (1) 	
+GSE141512 	Expression data for patients with myocardial infarction (MI) vs healthy patients",,,,,,
+"Sample GSM4205361 		Query DataSets for GSM4205361
+Status 	Public on Dec 06, 2019
+Title 	Healthy patient 3
+Sample type 	RNA
+  	
+Source name 	Blood sample from Healthy patient
+Organism 	Homo sapiens
+Characteristics 	subject group: Healthy patient
+gender: male
+subject status: Normal electrocardiogram, no history of cardiovascular diseases (CVD) and diabetes mellitus
+tissue: blood
+Growth protocol 	Six patients with first ST-segment elevation myocardial infarction (MI) were enrolled in this study. All patients were diagnosed at the National Medical Scientific Center for Cardiology (Moscow, Russia) based on symptoms of myocardial ischemia, increase of high-sensitivity cardiac troponin I (hs-cTn-I) and/or emergence of new or presumed new ST-segment elevation, new left bundle branch block or development of pathological Q waves in accordance with Third Universal Definition of MI. Hs-cTn-I was measured during the initial patient assessment (from 1 to 18 h after the onset of disease symptoms). All patients underwent coronary angiography on admission. All patients and were treated according to contemporary guidelines. A total of 6 healthy controls (HCs) (all men, mean age 51.0 ñ 7.1 years) with normal electrocardiogram, no history of cardiovascular diseases (CVD) and diabetes mellitus were included in the study; healthy controls (HCs characteristics by smoking status and body mass index were compatible to MI patients. All participants lived in European Russia.
+Extracted molecule 	total RNA
+Extraction protocol 	Blood samples were collected from MI patients 24-36 h after the disease onset and from HCs in the morning. PBMCs were isolated using Ficoll-Hypaque density gradient method (Sigma-Aldrich, St. Louis, MO, USA) within 3 h of sampling. Total RNA including small RNA was extracted using miRNeasy Mini Kit (Qiagen, Hildren, Germany) following the manufacturer's instructions. The RNA quantity was measured using the NanoDropTM spectrophotometer (Thermo Fisher Scientific, Waltham, MA, USA); the RNA integrity was assessed by QIAxcel Advanced System (Qiagen, Hilden, Germany). Samples with a RNA integrity number (RIN) value above eight were included in subsequent experiments.
+Label 	biotin
+Label protocol 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 500 ng of total RNA (GeneChip? WT PLUS Reagent Kit Manual Target Preparation for GeneChip? Whole Transcript (WT) Expression Array User Guide, 2018, Thermo Fisher Scientifi).
+  	
+Hybridization protocol 	Following fragmentation, 5.5 ug of ss-cDNA were hybridized for 16 hr at 45C on GeneChip? Human Transcriptome Array 2.0. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.
+Scan protocol 	GeneChips were scanned using the GeneChip? Scanner 3000 7G.
+Description 	Gene expression data from patients with MI
+Data processing 	Computational analysis of the microarray data files was performed using R programming language version 3.5.1. Data processing was carried out based on the affy package written in R [Gautier L, Cope L, Bolstad BM, Irizarry RA (2004). ?affy?analysis of Affymetrix GeneChip data at the probe level.? Bioinformatics, 20(3), 307?315. ISSN 1367-4803, doi: 10.1093/bioinformatics/btg405]. A biomaRt package was used to annotate the obtained data [Durinck S. et al. BioMart and Bioconductor: a powerful link between biological databases and microarray data analysis //Bioinformatics. ? 2005. ? ?. 21. ? ?. 16. ? ?. 3439-3440].",,,,,,
+"Sample GSM4205360 		Query DataSets for GSM4205360
+Status 	Public on Dec 06, 2019
+Title 	Healthy patient 2
+Sample type 	RNA
+  	
+Source name 	Blood sample from Healthy patient
+Organism 	Homo sapiens
+Characteristics 	subject group: Healthy patient
+gender: male
+subject status: Normal electrocardiogram, no history of cardiovascular diseases (CVD) and diabetes mellitus
+tissue: blood
+Growth protocol 	Six patients with first ST-segment elevation myocardial infarction (MI) were enrolled in this study. All patients were diagnosed at the National Medical Scientific Center for Cardiology (Moscow, Russia) based on symptoms of myocardial ischemia, increase of high-sensitivity cardiac troponin I (hs-cTn-I) and/or emergence of new or presumed new ST-segment elevation, new left bundle branch block or development of pathological Q waves in accordance with Third Universal Definition of MI. Hs-cTn-I was measured during the initial patient assessment (from 1 to 18 h after the onset of disease symptoms). All patients underwent coronary angiography on admission. All patients and were treated according to contemporary guidelines. A total of 6 healthy controls (HCs) (all men, mean age 51.0 ñ 7.1 years) with normal electrocardiogram, no history of cardiovascular diseases (CVD) and diabetes mellitus were included in the study; healthy controls (HCs characteristics by smoking status and body mass index were compatible to MI patients. All participants lived in European Russia.
+Extracted molecule 	total RNA
+Extraction protocol 	Blood samples were collected from MI patients 24-36 h after the disease onset and from HCs in the morning. PBMCs were isolated using Ficoll-Hypaque density gradient method (Sigma-Aldrich, St. Louis, MO, USA) within 3 h of sampling. Total RNA including small RNA was extracted using miRNeasy Mini Kit (Qiagen, Hildren, Germany) following the manufacturer's instructions. The RNA quantity was measured using the NanoDropTM spectrophotometer (Thermo Fisher Scientific, Waltham, MA, USA); the RNA integrity was assessed by QIAxcel Advanced System (Qiagen, Hilden, Germany). Samples with a RNA integrity number (RIN) value above eight were included in subsequent experiments.
+Label 	biotin
+Label protocol 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 500 ng of total RNA (GeneChip? WT PLUS Reagent Kit Manual Target Preparation for GeneChip? Whole Transcript (WT) Expression Array User Guide, 2018, Thermo Fisher Scientifi).
+  	
+Hybridization protocol 	Following fragmentation, 5.5 ug of ss-cDNA were hybridized for 16 hr at 45C on GeneChip? Human Transcriptome Array 2.0. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.
+Scan protocol 	GeneChips were scanned using the GeneChip? Scanner 3000 7G.
+Description 	Gene expression data from patients with MI
+Data processing 	Computational analysis of the microarray data files was performed using R programming language version 3.5.1. Data processing was carried out based on the affy package written in R [Gautier L, Cope L, Bolstad BM, Irizarry RA (2004). ?affy?analysis of Affymetrix GeneChip data at the probe level.? Bioinformatics, 20(3), 307?315. ISSN 1367-4803, doi: 10.1093/bioinformatics/btg405]. A biomaRt package was used to annotate the obtained data [Durinck S. et al. BioMart and Bioconductor: a powerful link between biological databases and microarray data analysis //Bioinformatics. ? 2005. ? ?. 21. ? ?. 16. ? ?. 3439-3440].
+  	
+Submission date 	Dec 05, 2019
+Last update date 	Dec 06, 2019
+Contact name 	German Osmak
+E-mail(s) 	german.osmak@gmail.com
+Organization name 	National Medical Research Center for Cardiology
+Street address 	3-ya Cherepkovskaya
+City 	Moscow
+ZIP/Postal code 	121552
+Country 	Russia
+  	
+Platform ID 	GPL17586
+Series (1) 	
+GSE141512 	Expression data for patients with myocardial infarction (MI) vs healthy patients",,,,,,
+"Sample GSM4205359 		Query DataSets for GSM4205359
+Status 	Public on Dec 06, 2019
+Title 	Healthy patient 1
+Sample type 	RNA
+  	
+Source name 	Blood sample from Healthy patient
+Organism 	Homo sapiens
+Characteristics 	subject group: Healthy patient
+gender: male
+subject status: Normal electrocardiogram, no history of cardiovascular diseases (CVD) and diabetes mellitus
+tissue: blood
+Growth protocol 	Six patients with first ST-segment elevation myocardial infarction (MI) were enrolled in this study. All patients were diagnosed at the National Medical Scientific Center for Cardiology (Moscow, Russia) based on symptoms of myocardial ischemia, increase of high-sensitivity cardiac troponin I (hs-cTn-I) and/or emergence of new or presumed new ST-segment elevation, new left bundle branch block or development of pathological Q waves in accordance with Third Universal Definition of MI. Hs-cTn-I was measured during the initial patient assessment (from 1 to 18 h after the onset of disease symptoms). All patients underwent coronary angiography on admission. All patients and were treated according to contemporary guidelines. A total of 6 healthy controls (HCs) (all men, mean age 51.0 ñ 7.1 years) with normal electrocardiogram, no history of cardiovascular diseases (CVD) and diabetes mellitus were included in the study; healthy controls (HCs characteristics by smoking status and body mass index were compatible to MI patients. All participants lived in European Russia.
+Extracted molecule 	total RNA
+Extraction protocol 	Blood samples were collected from MI patients 24-36 h after the disease onset and from HCs in the morning. PBMCs were isolated using Ficoll-Hypaque density gradient method (Sigma-Aldrich, St. Louis, MO, USA) within 3 h of sampling. Total RNA including small RNA was extracted using miRNeasy Mini Kit (Qiagen, Hildren, Germany) following the manufacturer's instructions. The RNA quantity was measured using the NanoDropTM spectrophotometer (Thermo Fisher Scientific, Waltham, MA, USA); the RNA integrity was assessed by QIAxcel Advanced System (Qiagen, Hilden, Germany). Samples with a RNA integrity number (RIN) value above eight were included in subsequent experiments.
+Label 	biotin
+Label protocol 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 500 ng of total RNA (GeneChip? WT PLUS Reagent Kit Manual Target Preparation for GeneChip? Whole Transcript (WT) Expression Array User Guide, 2018, Thermo Fisher Scientifi).
+  	
+Hybridization protocol 	Following fragmentation, 5.5 ug of ss-cDNA were hybridized for 16 hr at 45C on GeneChip? Human Transcriptome Array 2.0. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.
+Scan protocol 	GeneChips were scanned using the GeneChip? Scanner 3000 7G.
+Description 	Gene expression data from patients with MI
+Data processing 	Computational analysis of the microarray data files was performed using R programming language version 3.5.1. Data processing was carried out based on the affy package written in R [Gautier L, Cope L, Bolstad BM, Irizarry RA (2004). ?affy?analysis of Affymetrix GeneChip data at the probe level.? Bioinformatics, 20(3), 307?315. ISSN 1367-4803, doi: 10.1093/bioinformatics/btg405]. A biomaRt package was used to annotate the obtained data [Durinck S. et al. BioMart and Bioconductor: a powerful link between biological databases and microarray data analysis //Bioinformatics. ? 2005. ? ?. 21. ? ?. 16. ? ?. 3439-3440].
+  	
+Submission date 	Dec 05, 2019
+Last update date 	Dec 06, 2019
+Contact name 	German Osmak
+E-mail(s) 	german.osmak@gmail.com
+Organization name 	National Medical Research Center for Cardiology
+Street address 	3-ya Cherepkovskaya
+City 	Moscow
+ZIP/Postal code 	121552
+Country 	Russia
+  	
+Platform ID 	GPL17586
+Series (1) 	
+GSE141512 	Expression data for patients with myocardial infarction (MI) vs healthy patients",,,,,,
+"Sample GSM4205358 		Query DataSets for GSM4205358
+Status 	Public on Dec 06, 2019
+Title 	Patient with MI 6
+Sample type 	RNA
+  	
+Source name 	Blood sample from patient with MI
+Organism 	Homo sapiens
+Characteristics 	subject group: patient with Myocardial infarction (MI)
+gender: male
+subject status: Increase of high-sensitivity cardiac troponin I (hs-cTn-I) and new ST-segment elevation
+tissue: blood
+Growth protocol 	Six patients with first ST-segment elevation myocardial infarction (MI) were enrolled in this study. All patients were diagnosed at the National Medical Scientific Center for Cardiology (Moscow, Russia) based on symptoms of myocardial ischemia, increase of high-sensitivity cardiac troponin I (hs-cTn-I) and/or emergence of new or presumed new ST-segment elevation, new left bundle branch block or development of pathological Q waves in accordance with Third Universal Definition of MI. Hs-cTn-I was measured during the initial patient assessment (from 1 to 18 h after the onset of disease symptoms). All patients underwent coronary angiography on admission. All patients and were treated according to contemporary guidelines. A total of 6 healthy controls (HCs) (all men, mean age 51.0 ñ 7.1 years) with normal electrocardiogram, no history of cardiovascular diseases (CVD) and diabetes mellitus were included in the study; healthy controls (HCs characteristics by smoking status and body mass index were compatible to MI patients. All participants lived in European Russia.
+Extracted molecule 	total RNA
+Extraction protocol 	Blood samples were collected from MI patients 24-36 h after the disease onset and from HCs in the morning. PBMCs were isolated using Ficoll-Hypaque density gradient method (Sigma-Aldrich, St. Louis, MO, USA) within 3 h of sampling. Total RNA including small RNA was extracted using miRNeasy Mini Kit (Qiagen, Hildren, Germany) following the manufacturer's instructions. The RNA quantity was measured using the NanoDropTM spectrophotometer (Thermo Fisher Scientific, Waltham, MA, USA); the RNA integrity was assessed by QIAxcel Advanced System (Qiagen, Hilden, Germany). Samples with a RNA integrity number (RIN) value above eight were included in subsequent experiments.
+Label 	biotin
+Label protocol 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 500 ng of total RNA (GeneChip? WT PLUS Reagent Kit Manual Target Preparation for GeneChip? Whole Transcript (WT) Expression Array User Guide, 2018, Thermo Fisher Scientifi).
+  	
+Hybridization protocol 	Following fragmentation, 5.5 ug of ss-cDNA were hybridized for 16 hr at 45C on GeneChip? Human Transcriptome Array 2.0. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.
+Scan protocol 	GeneChips were scanned using the GeneChip? Scanner 3000 7G.
+Description 	Gene expression data from patients with MI
+Data processing 	Computational analysis of the microarray data files was performed using R programming language version 3.5.1. Data processing was carried out based on the affy package written in R [Gautier L, Cope L, Bolstad BM, Irizarry RA (2004). ?affy?analysis of Affymetrix GeneChip data at the probe level.? Bioinformatics, 20(3), 307?315. ISSN 1367-4803, doi: 10.1093/bioinformatics/btg405]. A biomaRt package was used to annotate the obtained data [Durinck S. et al. BioMart and Bioconductor: a powerful link between biological databases and microarray data analysis //Bioinformatics. ? 2005. ? ?. 21. ? ?. 16. ? ?. 3439-3440].
+  	
+Submission date 	Dec 05, 2019
+Last update date 	Dec 06, 2019
+Contact name 	German Osmak
+E-mail(s) 	german.osmak@gmail.com
+Organization name 	National Medical Research Center for Cardiology
+Street address 	3-ya Cherepkovskaya
+City 	Moscow
+ZIP/Postal code 	121552
+Country 	Russia
+  	
+Platform ID 	GPL17586
+Series (1) 	
+GSE141512 	Expression data for patients with myocardial infarction (MI) vs healthy patients",,,,,,
+"Sample GSM4205357 		Query DataSets for GSM4205357
+Status 	Public on Dec 06, 2019
+Title 	Patient with MI 5
+Sample type 	RNA
+  	
+Source name 	Blood sample from patient with MI
+Organism 	Homo sapiens
+Characteristics 	subject group: patient with Myocardial infarction (MI)
+gender: male
+subject status: Increase of high-sensitivity cardiac troponin I (hs-cTn-I) and new ST-segment elevation
+tissue: blood
+Growth protocol 	Six patients with first ST-segment elevation myocardial infarction (MI) were enrolled in this study. All patients were diagnosed at the National Medical Scientific Center for Cardiology (Moscow, Russia) based on symptoms of myocardial ischemia, increase of high-sensitivity cardiac troponin I (hs-cTn-I) and/or emergence of new or presumed new ST-segment elevation, new left bundle branch block or development of pathological Q waves in accordance with Third Universal Definition of MI. Hs-cTn-I was measured during the initial patient assessment (from 1 to 18 h after the onset of disease symptoms). All patients underwent coronary angiography on admission. All patients and were treated according to contemporary guidelines. A total of 6 healthy controls (HCs) (all men, mean age 51.0 ñ 7.1 years) with normal electrocardiogram, no history of cardiovascular diseases (CVD) and diabetes mellitus were included in the study; healthy controls (HCs characteristics by smoking status and body mass index were compatible to MI patients. All participants lived in European Russia.
+Extracted molecule 	total RNA
+Extraction protocol 	Blood samples were collected from MI patients 24-36 h after the disease onset and from HCs in the morning. PBMCs were isolated using Ficoll-Hypaque density gradient method (Sigma-Aldrich, St. Louis, MO, USA) within 3 h of sampling. Total RNA including small RNA was extracted using miRNeasy Mini Kit (Qiagen, Hildren, Germany) following the manufacturer's instructions. The RNA quantity was measured using the NanoDropTM spectrophotometer (Thermo Fisher Scientific, Waltham, MA, USA); the RNA integrity was assessed by QIAxcel Advanced System (Qiagen, Hilden, Germany). Samples with a RNA integrity number (RIN) value above eight were included in subsequent experiments.
+Label 	biotin
+Label protocol 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 500 ng of total RNA (GeneChip? WT PLUS Reagent Kit Manual Target Preparation for GeneChip? Whole Transcript (WT) Expression Array User Guide, 2018, Thermo Fisher Scientifi).
+  	
+Hybridization protocol 	Following fragmentation, 5.5 ug of ss-cDNA were hybridized for 16 hr at 45C on GeneChip? Human Transcriptome Array 2.0. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.
+Scan protocol 	GeneChips were scanned using the GeneChip? Scanner 3000 7G.
+Description 	Gene expression data from patients with MI
+Data processing 	Computational analysis of the microarray data files was performed using R programming language version 3.5.1. Data processing was carried out based on the affy package written in R [Gautier L, Cope L, Bolstad BM, Irizarry RA (2004). ?affy?analysis of Affymetrix GeneChip data at the probe level.? Bioinformatics, 20(3), 307?315. ISSN 1367-4803, doi: 10.1093/bioinformatics/btg405]. A biomaRt package was used to annotate the obtained data [Durinck S. et al. BioMart and Bioconductor: a powerful link between biological databases and microarray data analysis //Bioinformatics. ? 2005. ? ?. 21. ? ?. 16. ? ?. 3439-3440].
+  	
+Submission date 	Dec 05, 2019
+Last update date 	Dec 06, 2019
+Contact name 	German Osmak
+E-mail(s) 	german.osmak@gmail.com
+Organization name 	National Medical Research Center for Cardiology
+Street address 	3-ya Cherepkovskaya
+City 	Moscow
+ZIP/Postal code 	121552
+Country 	Russia
+  	
+Platform ID 	GPL17586
+Series (1) 	
+GSE141512 	Expression data for patients with myocardial infarction (MI) vs healthy patients",,,,,,
+"Sample GSM4205356 		Query DataSets for GSM4205356
+Status 	Public on Dec 06, 2019
+Title 	Patient with MI 4
+Sample type 	RNA
+  	
+Source name 	Blood sample from patient with MI
+Organism 	Homo sapiens
+Characteristics 	subject group: patient with Myocardial infarction (MI)
+gender: male
+subject status: Increase of high-sensitivity cardiac troponin I (hs-cTn-I) and new ST-segment elevation
+tissue: blood
+Growth protocol 	Six patients with first ST-segment elevation myocardial infarction (MI) were enrolled in this study. All patients were diagnosed at the National Medical Scientific Center for Cardiology (Moscow, Russia) based on symptoms of myocardial ischemia, increase of high-sensitivity cardiac troponin I (hs-cTn-I) and/or emergence of new or presumed new ST-segment elevation, new left bundle branch block or development of pathological Q waves in accordance with Third Universal Definition of MI. Hs-cTn-I was measured during the initial patient assessment (from 1 to 18 h after the onset of disease symptoms). All patients underwent coronary angiography on admission. All patients and were treated according to contemporary guidelines. A total of 6 healthy controls (HCs) (all men, mean age 51.0 ñ 7.1 years) with normal electrocardiogram, no history of cardiovascular diseases (CVD) and diabetes mellitus were included in the study; healthy controls (HCs characteristics by smoking status and body mass index were compatible to MI patients. All participants lived in European Russia.
+Extracted molecule 	total RNA
+Extraction protocol 	Blood samples were collected from MI patients 24-36 h after the disease onset and from HCs in the morning. PBMCs were isolated using Ficoll-Hypaque density gradient method (Sigma-Aldrich, St. Louis, MO, USA) within 3 h of sampling. Total RNA including small RNA was extracted using miRNeasy Mini Kit (Qiagen, Hildren, Germany) following the manufacturer's instructions. The RNA quantity was measured using the NanoDropTM spectrophotometer (Thermo Fisher Scientific, Waltham, MA, USA); the RNA integrity was assessed by QIAxcel Advanced System (Qiagen, Hilden, Germany). Samples with a RNA integrity number (RIN) value above eight were included in subsequent experiments.
+Label 	biotin
+Label protocol 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 500 ng of total RNA (GeneChip? WT PLUS Reagent Kit Manual Target Preparation for GeneChip? Whole Transcript (WT) Expression Array User Guide, 2018, Thermo Fisher Scientifi).
+  	
+Hybridization protocol 	Following fragmentation, 5.5 ug of ss-cDNA were hybridized for 16 hr at 45C on GeneChip? Human Transcriptome Array 2.0. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.
+Scan protocol 	GeneChips were scanned using the GeneChip? Scanner 3000 7G.
+Description 	Gene expression data from patients with MI
+Data processing 	Computational analysis of the microarray data files was performed using R programming language version 3.5.1. Data processing was carried out based on the affy package written in R [Gautier L, Cope L, Bolstad BM, Irizarry RA (2004). ?affy?analysis of Affymetrix GeneChip data at the probe level.? Bioinformatics, 20(3), 307?315. ISSN 1367-4803, doi: 10.1093/bioinformatics/btg405]. A biomaRt package was used to annotate the obtained data [Durinck S. et al. BioMart and Bioconductor: a powerful link between biological databases and microarray data analysis //Bioinformatics. ? 2005. ? ?. 21. ? ?. 16. ? ?. 3439-3440].
+  	
+Submission date 	Dec 05, 2019
+Last update date 	Dec 06, 2019
+Contact name 	German Osmak
+E-mail(s) 	german.osmak@gmail.com
+Organization name 	National Medical Research Center for Cardiology
+Street address 	3-ya Cherepkovskaya
+City 	Moscow
+ZIP/Postal code 	121552
+Country 	Russia
+  	
+Platform ID 	GPL17586
+Series (1) 	
+GSE141512 	Expression data for patients with myocardial infarction (MI) vs healthy patients",,,,,,
+"Sample GSM4205355 		Query DataSets for GSM4205355
+Status 	Public on Dec 06, 2019
+Title 	Patient with MI 3
+Sample type 	RNA
+  	
+Source name 	Blood sample from patient with MI
+Organism 	Homo sapiens
+Characteristics 	subject group: patient with Myocardial infarction (MI)
+gender: male
+subject status: Increase of high-sensitivity cardiac troponin I (hs-cTn-I) and new ST-segment elevation
+tissue: blood
+Growth protocol 	Six patients with first ST-segment elevation myocardial infarction (MI) were enrolled in this study. All patients were diagnosed at the National Medical Scientific Center for Cardiology (Moscow, Russia) based on symptoms of myocardial ischemia, increase of high-sensitivity cardiac troponin I (hs-cTn-I) and/or emergence of new or presumed new ST-segment elevation, new left bundle branch block or development of pathological Q waves in accordance with Third Universal Definition of MI. Hs-cTn-I was measured during the initial patient assessment (from 1 to 18 h after the onset of disease symptoms). All patients underwent coronary angiography on admission. All patients and were treated according to contemporary guidelines. A total of 6 healthy controls (HCs) (all men, mean age 51.0 ñ 7.1 years) with normal electrocardiogram, no history of cardiovascular diseases (CVD) and diabetes mellitus were included in the study; healthy controls (HCs characteristics by smoking status and body mass index were compatible to MI patients. All participants lived in European Russia.
+Extracted molecule 	total RNA
+Extraction protocol 	Blood samples were collected from MI patients 24-36 h after the disease onset and from HCs in the morning. PBMCs were isolated using Ficoll-Hypaque density gradient method (Sigma-Aldrich, St. Louis, MO, USA) within 3 h of sampling. Total RNA including small RNA was extracted using miRNeasy Mini Kit (Qiagen, Hildren, Germany) following the manufacturer's instructions. The RNA quantity was measured using the NanoDropTM spectrophotometer (Thermo Fisher Scientific, Waltham, MA, USA); the RNA integrity was assessed by QIAxcel Advanced System (Qiagen, Hilden, Germany). Samples with a RNA integrity number (RIN) value above eight were included in subsequent experiments.
+Label 	biotin
+Label protocol 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 500 ng of total RNA (GeneChip? WT PLUS Reagent Kit Manual Target Preparation for GeneChip? Whole Transcript (WT) Expression Array User Guide, 2018, Thermo Fisher Scientifi).
+  	
+Hybridization protocol 	Following fragmentation, 5.5 ug of ss-cDNA were hybridized for 16 hr at 45C on GeneChip? Human Transcriptome Array 2.0. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.
+Scan protocol 	GeneChips were scanned using the GeneChip? Scanner 3000 7G.
+Description 	Gene expression data from patients with MI
+Data processing 	Computational analysis of the microarray data files was performed using R programming language version 3.5.1. Data processing was carried out based on the affy package written in R [Gautier L, Cope L, Bolstad BM, Irizarry RA (2004). ?affy?analysis of Affymetrix GeneChip data at the probe level.? Bioinformatics, 20(3), 307?315. ISSN 1367-4803, doi: 10.1093/bioinformatics/btg405]. A biomaRt package was used to annotate the obtained data [Durinck S. et al. BioMart and Bioconductor: a powerful link between biological databases and microarray data analysis //Bioinformatics. ? 2005. ? ?. 21. ? ?. 16. ? ?. 3439-3440].
+  	
+Submission date 	Dec 05, 2019
+Last update date 	Dec 06, 2019
+Contact name 	German Osmak
+E-mail(s) 	german.osmak@gmail.com
+Organization name 	National Medical Research Center for Cardiology
+Street address 	3-ya Cherepkovskaya
+City 	Moscow
+ZIP/Postal code 	121552
+Country 	Russia
+  	
+Platform ID 	GPL17586
+Series (1) 	
+GSE141512 	Expression data for patients with myocardial infarction (MI) vs healthy patients",,,,,,
+"Sample GSM4205354 		Query DataSets for GSM4205354
+Status 	Public on Dec 06, 2019
+Title 	Patient with MI 2
+Sample type 	RNA
+  	
+Source name 	Blood sample from patient with MI
+Organism 	Homo sapiens
+Characteristics 	subject group: patient with Myocardial infarction (MI)
+gender: male
+subject status: Increase of high-sensitivity cardiac troponin I (hs-cTn-I) and new ST-segment elevation
+tissue: blood
+Growth protocol 	Six patients with first ST-segment elevation myocardial infarction (MI) were enrolled in this study. All patients were diagnosed at the National Medical Scientific Center for Cardiology (Moscow, Russia) based on symptoms of myocardial ischemia, increase of high-sensitivity cardiac troponin I (hs-cTn-I) and/or emergence of new or presumed new ST-segment elevation, new left bundle branch block or development of pathological Q waves in accordance with Third Universal Definition of MI. Hs-cTn-I was measured during the initial patient assessment (from 1 to 18 h after the onset of disease symptoms). All patients underwent coronary angiography on admission. All patients and were treated according to contemporary guidelines. A total of 6 healthy controls (HCs) (all men, mean age 51.0 ñ 7.1 years) with normal electrocardiogram, no history of cardiovascular diseases (CVD) and diabetes mellitus were included in the study; healthy controls (HCs characteristics by smoking status and body mass index were compatible to MI patients. All participants lived in European Russia.
+Extracted molecule 	total RNA
+Extraction protocol 	Blood samples were collected from MI patients 24-36 h after the disease onset and from HCs in the morning. PBMCs were isolated using Ficoll-Hypaque density gradient method (Sigma-Aldrich, St. Louis, MO, USA) within 3 h of sampling. Total RNA including small RNA was extracted using miRNeasy Mini Kit (Qiagen, Hildren, Germany) following the manufacturer's instructions. The RNA quantity was measured using the NanoDropTM spectrophotometer (Thermo Fisher Scientific, Waltham, MA, USA); the RNA integrity was assessed by QIAxcel Advanced System (Qiagen, Hilden, Germany). Samples with a RNA integrity number (RIN) value above eight were included in subsequent experiments.
+Label 	biotin
+Label protocol 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 500 ng of total RNA (GeneChip? WT PLUS Reagent Kit Manual Target Preparation for GeneChip? Whole Transcript (WT) Expression Array User Guide, 2018, Thermo Fisher Scientifi).
+  	
+Hybridization protocol 	Following fragmentation, 5.5 ug of ss-cDNA were hybridized for 16 hr at 45C on GeneChip? Human Transcriptome Array 2.0. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.
+Scan protocol 	GeneChips were scanned using the GeneChip? Scanner 3000 7G.
+Description 	Gene expression data from patients with MI
+Data processing 	Computational analysis of the microarray data files was performed using R programming language version 3.5.1. Data processing was carried out based on the affy package written in R [Gautier L, Cope L, Bolstad BM, Irizarry RA (2004). ?affy?analysis of Affymetrix GeneChip data at the probe level.? Bioinformatics, 20(3), 307?315. ISSN 1367-4803, doi: 10.1093/bioinformatics/btg405]. A biomaRt package was used to annotate the obtained data [Durinck S. et al. BioMart and Bioconductor: a powerful link between biological databases and microarray data analysis //Bioinformatics. ? 2005. ? ?. 21. ? ?. 16. ? ?. 3439-3440].
+  	
+Submission date 	Dec 05, 2019
+Last update date 	Dec 06, 2019
+Contact name 	German Osmak
+E-mail(s) 	german.osmak@gmail.com
+Organization name 	National Medical Research Center for Cardiology
+Street address 	3-ya Cherepkovskaya
+City 	Moscow
+ZIP/Postal code 	121552
+Country 	Russia
+  	
+Platform ID 	GPL17586
+Series (1) 	
+GSE141512 	Expression data for patients with myocardial infarction (MI) vs healthy patients",,,,,,
+"Sample GSM4205353 		Query DataSets for GSM4205353
+Status 	Public on Dec 06, 2019
+Title 	Patient with MI 1
+Sample type 	RNA
+  	
+Source name 	Blood sample from patient with MI
+Organism 	Homo sapiens
+Characteristics 	subject group: patient with Myocardial infarction (MI)
+gender: male
+subject status: Increase of high-sensitivity cardiac troponin I (hs-cTn-I) and new ST-segment elevation
+tissue: blood
+Growth protocol 	Six patients with first ST-segment elevation myocardial infarction (MI) were enrolled in this study. All patients were diagnosed at the National Medical Scientific Center for Cardiology (Moscow, Russia) based on symptoms of myocardial ischemia, increase of high-sensitivity cardiac troponin I (hs-cTn-I) and/or emergence of new or presumed new ST-segment elevation, new left bundle branch block or development of pathological Q waves in accordance with Third Universal Definition of MI. Hs-cTn-I was measured during the initial patient assessment (from 1 to 18 h after the onset of disease symptoms). All patients underwent coronary angiography on admission. All patients and were treated according to contemporary guidelines. A total of 6 healthy controls (HCs) (all men, mean age 51.0 ñ 7.1 years) with normal electrocardiogram, no history of cardiovascular diseases (CVD) and diabetes mellitus were included in the study; healthy controls (HCs characteristics by smoking status and body mass index were compatible to MI patients. All participants lived in European Russia.
+Extracted molecule 	total RNA
+Extraction protocol 	Blood samples were collected from MI patients 24-36 h after the disease onset and from HCs in the morning. PBMCs were isolated using Ficoll-Hypaque density gradient method (Sigma-Aldrich, St. Louis, MO, USA) within 3 h of sampling. Total RNA including small RNA was extracted using miRNeasy Mini Kit (Qiagen, Hildren, Germany) following the manufacturer's instructions. The RNA quantity was measured using the NanoDropTM spectrophotometer (Thermo Fisher Scientific, Waltham, MA, USA); the RNA integrity was assessed by QIAxcel Advanced System (Qiagen, Hilden, Germany). Samples with a RNA integrity number (RIN) value above eight were included in subsequent experiments.
+Label 	biotin
+Label protocol 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 500 ng of total RNA (GeneChip? WT PLUS Reagent Kit Manual Target Preparation for GeneChip? Whole Transcript (WT) Expression Array User Guide, 2018, Thermo Fisher Scientifi).
+  	
+Hybridization protocol 	Following fragmentation, 5.5 ug of ss-cDNA were hybridized for 16 hr at 45C on GeneChip? Human Transcriptome Array 2.0. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.
+Scan protocol 	GeneChips were scanned using the GeneChip? Scanner 3000 7G.
+Description 	Gene expression data from patients with MI
+Data processing 	Computational analysis of the microarray data files was performed using R programming language version 3.5.1. Data processing was carried out based on the affy package written in R [Gautier L, Cope L, Bolstad BM, Irizarry RA (2004). ?affy?analysis of Affymetrix GeneChip data at the probe level.? Bioinformatics, 20(3), 307?315. ISSN 1367-4803, doi: 10.1093/bioinformatics/btg405]. A biomaRt package was used to annotate the obtained data [Durinck S. et al. BioMart and Bioconductor: a powerful link between biological databases and microarray data analysis //Bioinformatics. ? 2005. ? ?. 21. ? ?. 16. ? ?. 3439-3440].
+  	
+Submission date 	Dec 05, 2019
+Last update date 	Dec 06, 2019
+Contact name 	German Osmak
+E-mail(s) 	german.osmak@gmail.com
+Organization name 	National Medical Research Center for Cardiology
+Street address 	3-ya Cherepkovskaya
+City 	Moscow
+ZIP/Postal code 	121552
+Country 	Russia
+  	
+Platform ID 	GPL17586
+Series (1) 	
+GSE141512 	Expression data for patients with myocardial infarction (MI) vs healthy patients",,,,,,
+,,,,,,
