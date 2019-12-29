@@ -375,6 +375,34 @@ Least5_MI_t <- as.data.frame(t(Least5_MI))
 Least5_MI_t[,1:2]
 ```
 
+Try plotting after formatting the data above into a column of classes of the row names for each group analyzed using tidy (gather()) then plot using ggplot with a bar chart by class but showing the genes.
+
+```{r}
+#library(dplyr)
+library(tidyr) #install.packages('tidyverse')
+
+least_5_MI_tidy <- Least5_MI_t %>% mutate(group = row.names(Least5_MI_t))
+least_5_MI_Tidy <- gather(least_5_MI_tidy, 'gene','foldChange',1:5)
+least_5_MI_Tidy$foldChange <- round(least_5_MI_Tidy$foldChange,2)
+head(least_5_MI_Tidy)
+```
+
+
+
+Now plot a bar chart of the fold change values of each gene in each of the five groups being analyzed using ggplot2
+```{r}
+#remove the 'Fold_Change_' from the group names to plot better
+least_5_MI_Tidy$group <- gsub('Fold_Change_','', least_5_MI_Tidy$group)
+
+ggplot(data = least_5_MI_Tidy, aes(x=gene, y=foldChange, fill=group)) +
+  geom_bar(stat='identity', position=position_dodge())+
+  geom_text(aes(label=foldChange), vjust = 1.0, color = 'black', position = position_dodge(0.5), size=2.9) +
+  scale_fill_brewer(palette='Paired') + theme_minimal()
+
+
+```
+
+
 ```{r}
 ggplot(Least5_MI_t, aes(x = Least5_MI_t$OR7D2, y = row.names(Least5_MI_t)))+ 
       geom_point() + 
