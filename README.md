@@ -5,3 +5,7 @@ This was then compared with a series on males who were Russian and were either h
  
  The series for the first study on overweight females and EGCG is: GSE74560 at https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74560
  The series for the second study on males who either do or don't have MI is: GSE141512 at https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141512
+ 
+ Another study from NCBI was added on hemochromatosis females and males between 40-65 years old with healthy and three types of genotypes with hemochromatosis. This series was found at https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE121620
+It uses the Affy 2.0 human genome and array samples as do the other two. 
+
