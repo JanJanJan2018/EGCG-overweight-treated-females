@@ -107,8 +107,8 @@ geneMeans <- Blend1 %>% group_by(HGNC.symbol) %>% summarise_at(samples, mean, na
 
 
 ```{r}
-healthyMales <- geneMeans[,c(1,20:22,25)]
-healthyFemales <- geneMeans[,c(1,23,24)]
+healthyMales <- as.data.frame(geneMeans[,c(1,20:22,25)])
+healthyFemales <- as.data.frame(geneMeans[,c(1,23,24)])
 ```
 
 
@@ -116,8 +116,8 @@ Ignore the groups where 1 and 2 are one type of homozygous strand,
 and 3 is another or a heterozygous strand
 
 ```{r}
-hemoMales <- geneMeans[,c(1,2:7,9,10,12:15,19)]
-hemoFemales <- geneMeans[,c(1,8,11,16:18)]
+hemoMales <- as.data.frame(geneMeans[,c(1,2:7,9,10,12:15,19)])
+hemoFemales <- as.data.frame(geneMeans[,c(1,8,11,16:18)])
 
 ```
 
@@ -132,13 +132,259 @@ write.csv(hemoFemales, 'hemoFemales.csv', row.names=FALSE)
 
 ```
 
+Lets use dplyr to get the genes with the most and least fold change values between hemo males and healthy males, then hemo females and healthy females.But first separate the hemo males and females into their respective groups of 1,2, or 3 using the ironMeta table.
+```{r}
+#under 1000mikrongs/L blood serrum ferritin C282Y homozygous
+group1_male <- as.data.frame(hemoMales[,c(1,9:12)]) 
+
+#over 1000mikrogs/L blood serrum ferritin C282Y homozygous 
+group2_male <- as.data.frame(hemoMales[,c(1,3,5,13,14)]) 
+
+#H63D	homozygotes	and/or	H63D/C282Y	heterozygotes
+group3_male <- as.data.frame(hemoMales[,c(1,2,4,6,7,8)]) 
+
+
+group1_female <- as.data.frame(hemoFemales[,c(1,4,6)])
+group2_female <- as.data.frame(hemoFemales[,c(1,3,5)])
+group3_female <- as.data.frame(hemoFemales[,c(1,2)])
+
+
+```
+
+Get the gene means per group by taking the row means of each table, after removing the symbol field and making it the row names for the genes.
+```{r}
+row.names(group1_male) <- group1_male$HGNC.symbol
+group1_male <- group1_male[,-1]
+
+row.names(group2_male) <- group2_male$HGNC.symbol
+group2_male <- group2_male[,-1]
+
+row.names(group3_male) <- group3_male$HGNC.symbol
+group3_male <- group3_male[,-1]
+
+row.names(group1_female) <- group1_female$HGNC.symbol
+group1_female <- group1_female[,-1]
+
+row.names(group2_female) <- group2_female$HGNC.symbol
+group2_female <- group2_female[,-1]
+
+
+```
+
+Turn the group3_female table from a matrix into a data frame, because when a df has only 1 field, R turns it into a vector of values instead of a df.
+```{r}
+row.names(group3_female) <- group3_female$HGNC.symbol
+group3_female <- group3_female[,-1]
+
+group3_female <- as.data.frame(group3_female)
+row.names(group3_female) <- row.names(group2_female)
+```
+
+Do the same for the other tables of healthyFemales, healthyMales, hemoMales, and hemoFemales.
+```{r}
+row.names(healthyFemales) <- healthyFemales$HGNC.symbol
+healthyFemales <- healthyFemales[,-1]
+
+row.names(healthyMales) <- healthyMales$HGNC.symbol
+healthyMales <- healthyMales[,-1]
+
+row.names(hemoMales) <- hemoMales$HGNC.symbol
+hemoMales <- hemoMales[,-1]
+
+row.names(hemoFemales) <- hemoFemales$HGNC.symbol
+hemoFemales <- hemoFemales[,-1]
+
+```
+
+Now use dplyr to find fold change values of the healthy males compared to all three groups of males.
+```{r, warning=FALSE, error=FALSE, message=FALSE}
+library(dplyr)
+```
+
+
+```{r}
+group1_male$G1M_Mean <- rowMeans(group1_male)
+group2_male$G2M_Mean <- rowMeans(group2_male)
+group3_male$G3M_Mean <- rowMeans(group3_male)
+group1_female$G1F_Mean <- rowMeans(group1_female)
+group2_female$G2F_Mean <- rowMeans(group2_female)
+group3_female$G3F_Mean <- rowMeans(group3_female)
+
+healthyMales$HealthyMale_Mean <- rowMeans(healthyMales)
+healthyFemales$HealthyFemale_Mean <- rowMeans(healthyFemales)
+hemoMales$hemoMale_Mean <- rowMeans(hemoMales)
+hemoFemales$hemoFemale_Mean <-rowMeans(hemoFemales)
+
+```
+
+Group all the table mean fields together into one table of its own.
+```{r}
+Means <- as.data.frame(cbind(group1_male$G1M_Mean, group2_male$G2M_Mean,
+                             group3_male$G3M_Mean,
+               group1_female$G1F_Mean, group2_female$G2F_Mean, group3_female$G3F_Mean,
+               healthyFemales$HealthyFemale_Mean, healthyMales$HealthyMale_Mean,
+               hemoFemales$hemoFemale_Mean, hemoMales$hemoMale_Mean))
+row.names(Means) <- row.names(healthyFemales)
+colnames(Means) <- c('G1M_Mean','G2M_Mean','G3M_Mean','G1F_Mean','G2F_Mean','G3F_Mean',
+                     'healthyFemale_Mean',
+                     'healthyMale_Mean','hemoFemale_Mean','hemoMale_Mean')
+
+```
+
+Add in the fold change values for each group with separate tables for each as the ratio of diseased group to healthy group.
+```{r}
+FC1 <- Means %>% mutate(FC1 = G1M_Mean/healthyMale_Mean)
+FC2 <- FC1 %>% mutate(FC2 = G2M_Mean/healthyMale_Mean)
+FC3 <- FC2 %>% mutate(FC3 = G3M_Mean/healthyMale_Mean)
+FC4 <- FC3 %>% mutate(FC4 = G1F_Mean/healthyFemale_Mean)
+FC5 <- FC4 %>% mutate(FC5 = G2F_Mean/healthyFemale_Mean)
+FC6 <- FC5 %>% mutate(FC6 = G3F_Mean/healthyFemale_Mean)
+FC7 <- FC6 %>% mutate(FC7 = hemoMale_Mean/healthyMale_Mean)
+FC8 <- FC7 %>% mutate(FC8 = hemoFemale_Mean/healthyFemale_Mean)
+
+row.names(FC8) <- row.names(Means)
+
+All <- cbind(FC8, geneMeans[2:25])
+```
+
+```{r}
+colnames(All)
+```
+
+Change the fold change fields to interpretable names.
+```{r}
+colnames(All)[11:18] <- c('FC_1m','FC_2m', 'FC_3m', 'FC_1F', 'FC_2F', 'FC_3F', 
+                   'FC_malesOverall', 'FC_femalesOverall')
+colnames(All)
+```
+
+
+Write this table of the fold change values and all samples and groups to csv.
+```{r}
+write.csv(All, 'all-fc-grops.csv', row.names=TRUE)
+```
+
+Now, lets find the most expressed genes overall for males
+```{r}
+most_males <- All[order(All$FC_malesOverall, decreasing=TRUE)[1:5],]
+row.names(most_males)
+```
+
+Find the least expressed genes overall for males.
+```{r}
+least_males <- All[order(All$FC_malesOverall, decreasing=FALSE)[1:5],]
+row.names(least_males)
+```
+
+Find the most expressed genes overall for females.
+```{r}
+most_females <- All[order(All$FC_femalesOverall, decreasing=TRUE)[1:5],]
+row.names(most_females)
+```
+
+Find the least expressed genes overall for females.
+```{r}
+least_females <- All[order(All$FC_femalesOverall, decreasing=FALSE)[1:5],]
+row.names(least_females)
+```
+
+
+What are the 5 most expressed genes in group 1 for males?
+```{r}
+g1m_most <- All[order(All$FC_1m, decreasing=TRUE)[1:5],]
+row.names(g1m_most)
+```
+
+What are the 5 least expressed genes in group 1 for males?
+```{r}
+g1m_least <- All[order(All$FC_1m, decreasing=FALSE)[1:5],]
+row.names(g1m_least)
+
+```
+
+What are the 5 most expressed genes in group 2 for males?
+```{r}
+g2m_most <- All[order(All$FC_2m, decreasing=TRUE)[1:5],]
+row.names(g2m_most)
+
+```
+
+What are the 5 least expressed genes in group 2 for males?
+```{r}
+g2m_least <- All[order(All$FC_2m, decreasing=FALSE)[1:5],]
+row.names(g2m_least)
+
+```
+
+What are the 5 most expressed genes in group 3 for males?
+```{r}
+g3m_most <- All[order(All$FC_3m, decreasing=TRUE)[1:5],]
+row.names(g3m_most)
+
+```
+
+What are the 5 least expressed genes in group 3 for males?
+```{r}
+g3m_least <- All[order(All$FC_3m, decreasing=FALSE)[1:5],]
+row.names(g3m_least)
+
+```
+
+What are the 5 most expressed genes in group 1 for females?
+```{r}
+g1f_most <- All[order(All$FC_1F, decreasing=TRUE)[1:5],]
+row.names(g1f_most)
+
+```
+
+What are the 5 least expressed genes in group 1 for females?
+```{r}
+g1f_least <- All[order(All$FC_1F, decreasing=FALSE)[1:5],]
+row.names(g1f_least)
+
+```
+
+What are the 5 most expressed genes in group 2 for females?
+```{r}
+g2f_most <- All[order(All$FC_2F, decreasing=TRUE)[1:5],]
+row.names(g2f_most)
+
+
+```
+
+What are the 5 least expressed genes in group 2 for females?
+```{r}
+g2f_least <- All[order(All$FC_2F, decreasing=FALSE)[1:5],]
+row.names(g2f_least)
+
+```
+
+What are the 5 most expressed genes in group 3 for females?
+```{r}
+g3f_most <- All[order(All$FC_3F, decreasing=TRUE)[1:5],]
+row.names(g3f_most)
+
+```
+
+What are the 5 least expressed genes in group 3 for females?
+```{r}
+g3f_least <- All[order(All$FC_3F, decreasing=FALSE)[1:5],]
+row.names(g3f_least)
+
+```
 
 ```{r}
 
 ```
 
+```{r}
+
+```
 
 ```{r}
 
 ```
 
+```{r}
+
+```
