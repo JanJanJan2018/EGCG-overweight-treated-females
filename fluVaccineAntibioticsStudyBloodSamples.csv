@@ -1,0 +1,122 @@
+"Series GSE120719 		Query DataSets for GSE120719
+Status 	Public on Sep 05, 2019
+Title 	Perturbation of the metabolic phenotypes of vaccination by the gut microbiome in humans
+Organism 	Homo sapiens
+Experiment type 	Expression profiling by array
+Summary 	This SuperSeries is composed of the SubSeries listed below.
+  	
+Overall design 	Refer to individual Series
+  	
+Citation(s) 	
+
+    Hagan T, Cortese M, Rouphael N, Boudreau C et al. Antibiotics-Driven Gut Microbiome Perturbation Alters Immunity to Vaccines in Humans. Cell 2019 Sep 5;178(6):1313-1328.e13. PMID: 31491384
+
+Submission date 	Oct 01, 2018
+Last update date 	Dec 18, 2019
+Contact name 	Dmitri A Kazmin
+E-mail(s) 	dkazmin@emory.edu
+Phone 	404-712-2594
+Organization name 	Emory University
+Department 	Emory Vaccine Center
+Lab 	Pulendran
+Street address 	954 Gatewood Dr
+City 	Atlanta
+State/province 	GA
+ZIP/Postal code 	30329
+Country 	USA
+  	
+Platforms (1) 	
+GPL13158 	[HT_HG-U133_Plus_PM] Affymetrix HT HG-U133+ PM Array Plate
+Samples (160)
+More... More...
+	
+GSM3409004 	Subject # 29, day 7
+GSM3409005 	Subject # 30, day -21 (screening)
+GSM3409006 	Subject # 30, day 0
+This SuperSeries is composed of the following SubSeries:
+GSE120717 	Perturbation of the metabolic phenotypes of vaccination by the gut microbiome in humans [phase I]
+GSE120718 	Perturbation of the metabolic phenotypes of vaccination by the gut microbiome in humans [phase II]"
+"Series GSE120717 		Query DataSets for GSE120717
+Status 	Public on Sep 05, 2019
+Title 	Perturbation of the metabolic phenotypes of vaccination by the gut microbiome in humans [phase I]
+Organism 	Homo sapiens
+Experiment type 	Expression profiling by array
+Summary 	We performed an experiment in humans, in which broad spectrum antibiotics were administered to healthy young adults, prior and subsequent to vaccination with the seasonal influenza vaccine. Transcriptional profiling of peripheral blood mononuclear cells was performed prior to the vaccination and as a time course following the vaccine administration.
+  	
+Overall design 	A total of 22 study participants aged 18-45 received a trivalent influenza vaccine (TIV) on day 0. Eleven subjects were randomized to a five-day oral broad-spectrum antibiotic regimen consisting of neomycin, vancomycin, and metronidazole between day -3 and day 1. Vaccine was administered at Day 0. Biologic samples were collected and analyses performed at regular intervals.
+  	
+Contributor(s) 	Hagan T, Cortese M, Kazmin D, Pulendran B
+Citation(s) 	
+
+    Hagan T, Cortese M, Rouphael N, Boudreau C et al. Antibiotics-Driven Gut Microbiome Perturbation Alters Immunity to Vaccines in Humans. Cell 2019 Sep 5;178(6):1313-1328.e13. PMID: 31491384
+
+Submission date 	Oct 01, 2018
+Last update date 	Dec 18, 2019
+Contact name 	Dmitri A Kazmin
+E-mail(s) 	dkazmin@emory.edu
+Phone 	404-712-2594
+Organization name 	Emory University
+Department 	Emory Vaccine Center
+Lab 	Pulendran
+Street address 	954 Gatewood Dr
+City 	Atlanta
+State/province 	GA
+ZIP/Postal code 	30329
+Country 	USA
+  	
+Platforms (1) 	
+GPL13158 	[HT_HG-U133_Plus_PM] Affymetrix HT HG-U133+ PM Array Plate
+Samples (106)
+More... More...
+	
+GSM3409004 	Subject # 29, day 7
+GSM3409005 	Subject # 30, day -21 (screening)
+GSM3409006 	Subject # 30, day 0
+This SubSeries is part of SuperSeries:
+GSE120719 	Perturbation of the metabolic phenotypes of vaccination by the gut microbiome in humans"
+"Sample GSM3409004 		Query DataSets for GSM3409004
+Status 	Public on Sep 05, 2019
+Title 	Subject # 29, day 7
+Sample type 	RNA
+  	
+Source name 	PBMC
+Organism 	Homo sapiens
+Characteristics 	tissue: PBMC
+days after vaccination: day 7
+antibiotic treatment: Yes
+Extracted molecule 	total RNA
+Extraction protocol 	RNA was isolated from isolated PBMCs using RNAeasy kit (Quagen)
+Label 	Biotin
+Label protocol 	Fragemented cRNA was lebeled with biotin
+  	
+Hybridization protocol 	Samples were hybridized on HG-133 plus 2.0 chips
+Scan protocol 	Plates were scanned on GeneTitan multichannel instrument (Affymetrix)
+Description 	ABX29_D7
+Data processing 	Probe level processing was done by RMA with log2 transform and probe summary by median polish
+  	"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
