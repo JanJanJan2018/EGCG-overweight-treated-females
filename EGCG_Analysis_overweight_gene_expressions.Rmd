@@ -233,6 +233,9 @@ row.names(FC) <- row.names(DE3)
 FC2 <- FC %>% mutate(FC_egcg_quer = FC$Post_EGCG_Quercentin_Means/FC$Pre_Means)
 FC2 <- FC2[,c(35,1:34)]
 row.names(FC2) <- row.names(FC)
+
+FC3 <- round(FC2,3)
+write.csv(FC3,'foldChange_EGCG.csv', row.names=TRUE)
 ```
 
 The top 20 genes that changed the most have a higher fold change value and are:
@@ -320,4 +323,214 @@ ML_ready <- cbind(Type, ML_Top20)
 write.csv(ML_ready, 'ML_ready.csv', row.names=TRUE)
 ```
 
+Some gene summaries were obtained from NCBI gene and from Genecard.org, but some summaries only state the gene is a pseudogene and some have no results.
+Read in this table that the summaries were added in Excel from the sites above and keep only the complete cases.
+```{r}
+geneSummaries <- read.csv('genes_120_top20_summaries.csv', sep=',',
+                          header=TRUE, na.strings=c('',' '))
+
+
+```
+
+```{r}
+
+geneSumm <- geneSummaries[complete.cases(geneSummaries$summary),]
+
+```
+
+
+Combine the up and fold change top genes as they are both the genes that were up regulated the most when building those tables, the fold change for genes down regulated wasn't made. Then make the down regulated genes it's own table
+```{r}
+u <- geneSumm[grep('Up',geneSumm$value),]
+f <- geneSumm[grep('Fold',geneSumm$value),]
+
+up <- rbind(u,f)#the negative values for up reg. can be confusing, but it is how much less the healthy genes are less than this diseased gene
+
+down <- geneSumm[grep('Down', geneSumm$value),]
+```
+
+Remove the titles of 'GeneCards Summary' and 'Gene Ontology (GO) annotations' and 'UniProtKB/Swiss-Prot Summary' and 'PubMed' so that the actual summary can be made for the up and down regulated genes separately.
+```{r}
+up$summary <- gsub('UniProtKB/Swiss-Prot Summary','',up$summary)
+up$summary <- gsub('GeneCards Summary','',up$summary)
+up$summary <- gsub('Gene Ontology','',up$summary)
+up$summary <- gsub('(GO)','',up$summary)
+up$summary <- gsub('annotations','',up$summary)
+up$summary <- gsub('PubMed','',up$summary)
+
+down$summary <- gsub('UniProtKB/Swiss-Prot Summary','',down$summary)
+down$summary <- gsub('GeneCards Summary','',down$summary)
+down$summary <- gsub('Gene Ontology','',down$summary)
+down$summary <- gsub('(GO)','',down$summary)
+down$summary <- gsub('annotations','',down$summary)
+down$summary <- gsub('PubMed','',down$summary)
+
+```
+
+
+Perform Natural Language Processing on the Up regulated gene summaries and produce some word clouds for visualizations to get an idea of the gene functions that are associated with green tea effects on overweight females.
+```{r, error=FALSE, warning=FALSE, message=FALSE}
+library(tm)
+library(SnowballC)
+library(wordcloud)
+library(ggplot2)
+library(textstem)
+
+
+```
+
+```{r}
+lemma <- lemmatize_strings(up$summary, dictionary=lexicon::hash_lemmas)
+
+Lemma <- as.data.frame(lemma)
+Lemma <- cbind(Lemma, up)
+
+colnames(Lemma)[1] <- 'lemmatized_summary'
+
+write.csv(Lemma, 'Lemmatized_upreg.csv', row.names=FALSE)
+
+```
+
+```{r, error=FALSE, message=FALSE, warning=FALSE}
+dir.create('./upreg20-Lemma')
+
+ea <- as.character(Lemma$lemmatized_summary)
+setwd('./upreg20-Lemma')
+
+for (j in 1:length(ea)){
+  write(ea[j], paste(paste('up',j, sep='.'), '.txt', sep=''))
+}
+setwd('../')
+
+```
+
+
+```{r}
+EGCG <- Corpus(DirSource("upreg20-Lemma"))
+
+EGCG
+
+EGCG <- tm_map(EGCG, removePunctuation)
+EGCG <- tm_map(EGCG, removeNumbers)
+EGCG <- tm_map(EGCG, tolower)
+EGCG <- tm_map(EGCG, removeWords, stopwords("english"))
+EGCG <- tm_map(EGCG, stripWhitespace)
+
+dtmEGCG <- DocumentTermMatrix(EGCG)
+dtmEGCG
+
+```
+
+```{r}
+freq <- colSums(as.matrix(dtmEGCG))
+
+FREQ <- data.frame(freq)
+ord <- order(freq, decreasing=TRUE)
+
+freq[head(ord, 25)]
+
+```
+
+
+
+### Up regulated and increasing fold change genes
+```{r, width=500, height=500}
+wf <- data.frame(word=names(freq), freq=freq)
+p <- ggplot(subset(wf, freq>9), aes(word, freq))
+p <- p + geom_bar(stat= 'identity') 
+p <- p + theme(axis.text.x=element_text(angle=90, hjust=1)) 
+p
+
+```
+
+### Up regulated and increasing fold change
+```{r}
+wordcloud(names(freq), freq, min.freq=9,colors=brewer.pal(3,'Dark2'))
+
+```
+
+### Up regulated and increasing fold change
+```{r}
+wordcloud(names(freq), freq, max.words=30,colors=brewer.pal(6,'Dark2'))
+
+```
+
+
+### Now for the down regulated available summaries for the top 20 down regulated genes
+
+```{r}
+lemma <- lemmatize_strings(down$summary, dictionary=lexicon::hash_lemmas)
+
+Lemma <- as.data.frame(lemma)
+Lemma <- cbind(Lemma, down)
+
+colnames(Lemma)[1] <- 'lemmatized_summary'
+
+write.csv(Lemma, 'Lemmatized_downreg.csv', row.names=FALSE)
+
+```
+
+```{r, error=FALSE, message=FALSE, warning=FALSE}
+dir.create('./downreg-Lemma')
+
+ea <- as.character(Lemma$lemmatized_summary)
+setwd('./downreg-Lemma')
+
+for (j in 1:length(ea)){
+  write(ea[j], paste(paste('down',j, sep='.'), '.txt', sep=''))
+}
+setwd('../')
+
+```
+
+
+```{r}
+EGCG <- Corpus(DirSource("downreg-Lemma"))
+
+EGCG
+
+EGCG <- tm_map(EGCG, removePunctuation)
+EGCG <- tm_map(EGCG, removeNumbers)
+EGCG <- tm_map(EGCG, tolower)
+EGCG <- tm_map(EGCG, removeWords, stopwords("english"))
+EGCG <- tm_map(EGCG, stripWhitespace)
+
+dtmEGCG <- DocumentTermMatrix(EGCG)
+dtmEGCG
+
+```
+
+```{r}
+freq <- colSums(as.matrix(dtmEGCG))
+
+FREQ <- data.frame(freq)
+ord <- order(freq, decreasing=TRUE)
+
+freq[head(ord, 25)]
+
+```
+
+
+
+### Down regulated
+```{r, width=500, height=500}
+wf <- data.frame(word=names(freq), freq=freq)
+p <- ggplot(subset(wf, freq>6), aes(word, freq))
+p <- p + geom_bar(stat= 'identity') 
+p <- p + theme(axis.text.x=element_text(angle=90, hjust=1)) 
+p
+
+```
+
+### Down regulated
+```{r}
+wordcloud(names(freq), freq, min.freq=6,colors=brewer.pal(3,'Dark2'))
+
+```
+
+### Down regulated
+```{r}
+wordcloud(names(freq), freq, max.words=30,colors=brewer.pal(6,'Dark2'))
+
+```
 
