@@ -3,6 +3,8 @@ title: "EGCG blood sample gene expression Analysis"
 author: "Janis Corona"
 date: "12/16/2019"
 output:
+  html_document:
+    df_print: paged
   pdf_document: default
   word_document: default
 ---
@@ -432,9 +434,10 @@ freq[head(ord, 25)]
 ```
 
 
+***
 
 ### Up regulated and increasing fold change genes
-```{r, width=500, height=500}
+```{r, fig.width=9, fig.height=9}
 wf <- data.frame(word=names(freq), freq=freq)
 p <- ggplot(subset(wf, freq>9), aes(word, freq))
 p <- p + geom_bar(stat= 'identity') 
@@ -443,18 +446,23 @@ p
 
 ```
 
+***
+
 ### Up regulated and increasing fold change
-```{r}
+```{r, fig.width=3, fig.height=3}
 wordcloud(names(freq), freq, min.freq=9,colors=brewer.pal(3,'Dark2'))
 
 ```
 
+***
+
 ### Up regulated and increasing fold change
-```{r}
+```{r, fig.width=3, fig.height=3}
 wordcloud(names(freq), freq, max.words=30,colors=brewer.pal(6,'Dark2'))
 
 ```
 
+***
 
 ### Now for the down regulated available summaries for the top 20 down regulated genes
 
@@ -510,10 +518,10 @@ freq[head(ord, 25)]
 
 ```
 
-
+***
 
 ### Down regulated
-```{r, width=500, height=500}
+```{r, fig.width=9, fig.height=9}
 wf <- data.frame(word=names(freq), freq=freq)
 p <- ggplot(subset(wf, freq>6), aes(word, freq))
 p <- p + geom_bar(stat= 'identity') 
@@ -522,14 +530,18 @@ p
 
 ```
 
+***
+
 ### Down regulated
-```{r}
+```{r, fig.width=3, fig.height=3}
 wordcloud(names(freq), freq, min.freq=6,colors=brewer.pal(3,'Dark2'))
 
 ```
 
+***
+
 ### Down regulated
-```{r}
+```{r, fig.width=3, fig.height=3}
 wordcloud(names(freq), freq, max.words=30,colors=brewer.pal(6,'Dark2'))
 
 ```
