@@ -7,7 +7,7 @@ output:
   word_document: default
 ---
 
-### This Rmarkdown document analyzes the gene expression data from blood samples of overweight people before being treated with EGCG pills twice a day for 70 days and after. There were some that were treated additionally with flavanoids, fish oil, and vitamin C in the quenterin samples. This data was pulled from the NCBI GEO gene expression data and combined with the HGNC names from BioMart of Ensembl using the Affymetrix human genome 1.0 version 1 ID names.
+### This Rmarkdown document analyzes the gene expression data from blood samples of overweight people before being treated with EGCG pills twice a day for 70 days and after. There were some that were treated additionally with flavanoids, fish oil, and vitamin C in the quenterin samples. This data was pulled from the NCBI GEO gene expression data and combined with the HGNC names from BioMart of Ensembl using the Affymetrix human genome 1.0 version 1 ID names.Files for this series are found at: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74560 
 
 Read in all the data tables 
 ```{r}
