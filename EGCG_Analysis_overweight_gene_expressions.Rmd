@@ -7,45 +7,45 @@ output:
   word_document: default
 ---
 
-### This Rmarkdown document analyzes the gene expression data from blood samples of overweight people before being treated with EGCG pills twice a day for 70 days and after. There were some that were treated additionally with flavanoids, fish oil, and vitamin C in the quenterin samples. This data was pulled from the NCBI GEO gene expression data and combined with the HGNC names from BioMart of Ensembl using the Affymetrix human genome 1.0 version 1 ID names.Files for this series are found at: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74560 
+This Rmarkdown document analyzes the gene expression data from blood samples of overweight people before being treated with EGCG pills twice a day for 70 days and after. There were some that were treated additionally with flavanoids, fish oil, and vitamin C in the quenterin samples. This data was pulled from the NCBI GEO gene expression data and combined with the HGNC names from BioMart of Ensembl using the Affymetrix human genome 1.0 version 1 ID names.Files for this series are found at [NCBI](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74560): https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74560 
 
-Read in all the data tables 
-```{r}
-#pre_egcg <- read.csv('pre_placebo_EGCG.csv',sep=',', header=TRUE,
-#                     na.strings=c('',' '), skip=1)
-#pre_egcg_quer <- read.csv('pre_vitC_flavanoids_fishOil_EGCG.csv', 
-#                          sep=',', header=TRUE, na.strings=c('',' '), skip=1)
-#post_egcg <- read.csv('post_placebo_EGCG.csv', sep=',', header=TRUE,
-#                      na.strings=c('',' '), skip=1)
-#post_egcg_quer <- read.csv('post_vitaminC_flavanoids_fishOil_EGCG.csv',
-#                     sep=',', header=TRUE, na.strings=c('',' '), skip=1)
-#hgnc <- read.csv('HGNC_bioMart_affy_1_v1_IDs.csv', sep=',',
-#                 header=TRUE, na.strings=c('',' '))
+Read in all the data tables.
+```{r, eval=F}
+pre_egcg <- read.csv('pre_placebo_EGCG.csv',sep=',', header=TRUE,
+                     na.strings=c('',' '), skip=1)
+pre_egcg_quer <- read.csv('pre_vitC_flavanoids_fishOil_EGCG.csv', 
+                          sep=',', header=TRUE, na.strings=c('',' '), skip=1)
+post_egcg <- read.csv('post_placebo_EGCG.csv', sep=',', header=TRUE,
+                      na.strings=c('',' '), skip=1)
+post_egcg_quer <- read.csv('post_vitaminC_flavanoids_fishOil_EGCG.csv',
+                     sep=',', header=TRUE, na.strings=c('',' '), skip=1)
+hgnc <- read.csv('HGNC_bioMart_affy_1_v1_IDs.csv', sep=',',
+                 header=TRUE, na.strings=c('',' '))
 ```
 
 
 
 Combine the HGNC names to each of the four tables and make the table row names.
-```{r}
-#HGNC <- hgnc[,4:5]
-#HGNC <- HGNC[!duplicated(HGNC$Affy_HuGene_1_v1_probe_ID),]
-#colnames(HGNC)[2] <- 'Affy'
+```{r, eval=F}
+HGNC <- hgnc[,4:5]
+HGNC <- HGNC[!duplicated(HGNC$Affy_HuGene_1_v1_probe_ID),]
+colnames(HGNC)[2] <- 'Affy'
 ```
 
-```{r}
+```{r, eval=F}
 
-#post_egcg2 <- merge(HGNC,post_egcg, by.x='Affy',
-#                    by.y='ID_REF')
+post_egcg2 <- merge(HGNC,post_egcg, by.x='Affy',
+                    by.y='ID_REF')
 
-#post_egcg_quer2 <- merge(HGNC, post_egcg_quer,
-#                         by.x='Affy',by.y='ID_REF')
+post_egcg_quer2 <- merge(HGNC, post_egcg_quer,
+                         by.x='Affy',by.y='ID_REF')
 
-#pre_egcg2 <- merge(HGNC, pre_egcg, by.x='Affy',
-#                   by.y='ID_REF')
+pre_egcg2 <- merge(HGNC, pre_egcg, by.x='Affy',
+                   by.y='ID_REF')
 
-#pre_egcg_quer2 <- merge(HGNC, pre_egcg_quer,
-#                        by.x='Affy',
-#                        by.y='ID_REF')
+pre_egcg_quer2 <- merge(HGNC, pre_egcg_quer,
+                        by.x='Affy',
+                        by.y='ID_REF')
 
 ```
 
@@ -59,32 +59,32 @@ library(dplyr)
 
 
 Remove the Affymetrix ID from the four tables because it isn't needed anymore.
-```{r}
+```{r, eval=F}
 
-#post_eq <- post_egcg_quer2[,-1]
-#post_eg <- post_egcg2[,-1]
-#pre_eq <- pre_egcg_quer2[,-1]
-#pre_eg <- pre_egcg2[,-1]
+post_eq <- post_egcg_quer2[,-1]
+post_eg <- post_egcg2[,-1]
+pre_eq <- pre_egcg_quer2[,-1]
+pre_eg <- pre_egcg2[,-1]
 
 ```
 
 EGCG only pre-treatment samples
-````{r}
+````{r, eval=F}
 
-#samples <- colnames(pre_eg)[2:8]
-#Samples <- as.vector(samples)
-#Pre_E <- pre_eg %>% group_by(HGNC.Symbol) %>% 
-#  summarise_at(vars(Samples), mean, na.rm=TRUE)
+samples <- colnames(pre_eg)[2:8]
+Samples <- as.vector(samples)
+Pre_E <- pre_eg %>% group_by(HGNC.Symbol) %>% 
+  summarise_at(vars(Samples), mean, na.rm=TRUE)
 
 ```
 
 EGCG+quenterin pre-treatment samples
-```{r}
+```{r, eval=F}
 
-#samples1 <- colnames(pre_eq)[2:8]
-#Samples1 <- as.vector(samples1)
-#Pre_Q <- pre_eq %>% group_by(HGNC.Symbol) %>% 
-#  summarise_at(vars(Samples1), mean, na.rm=TRUE)
+samples1 <- colnames(pre_eq)[2:8]
+Samples1 <- as.vector(samples1)
+Pre_Q <- pre_eq %>% group_by(HGNC.Symbol) %>% 
+  summarise_at(vars(Samples1), mean, na.rm=TRUE)
 
 
 
@@ -92,49 +92,49 @@ EGCG+quenterin pre-treatment samples
 
 
 EGCG samples and EGCG+flavanoids+fish oil+vitamin C can be combined into a pretreatment table.
-```{r}
+```{r, eval=F}
 
-#pre <- merge(Pre_E, Pre_Q, by.x='HGNC.Symbol', by.y='HGNC.Symbol')
-#row.names(pre) <- pre$HGNC.Symbol
-#PRE <- pre[,-1]
+pre <- merge(Pre_E, Pre_Q, by.x='HGNC.Symbol', by.y='HGNC.Symbol')
+row.names(pre) <- pre$HGNC.Symbol
+PRE <- pre[,-1]
 
 ```
 
 Post EGCG and Quercetin
-```{r, warning=FALSE}
+```{r, warning=FALSE, eval=F}
 
-#samples2 <- colnames(post_eq)[2:8]
-#Samples2 <- as.vector(samples2)
-#Post_Q <- post_eq %>% group_by(HGNC.Symbol) %>% 
-#  summarise_at(vars(Samples2), mean, na.rm=TRUE)
+samples2 <- colnames(post_eq)[2:8]
+Samples2 <- as.vector(samples2)
+Post_Q <- post_eq %>% group_by(HGNC.Symbol) %>% 
+  summarise_at(vars(Samples2), mean, na.rm=TRUE)
 
 ```
 
 Post EGCG only
-```{r}
+```{r, eval=F}
 
-#samples3 <- colnames(post_eg)[2:8]
-#Samples3 <- as.vector(samples3)
-#Post_E <- post_eg %>% group_by(HGNC.Symbol) %>% 
-#  summarise_at(vars(Samples3), mean, na.rm=TRUE)
+samples3 <- colnames(post_eg)[2:8]
+Samples3 <- as.vector(samples3)
+Post_E <- post_eg %>% group_by(HGNC.Symbol) %>% 
+  summarise_at(vars(Samples3), mean, na.rm=TRUE)
 
 ```
 
 Give the post-treatment samples row names and remove the HGNC fields
-```{r, message=FALSE}
-#Post_E <- as.data.frame(Post_E)
-#Post_Q <- as.data.frame(Post_Q)
-#row.names(Post_E) <- Post_E$HGNC.Symbol
-#row.names(Post_Q) <- Post_Q$HGNC.Symbol
-#Post_E <- Post_E[,-1]
-#Post_Q <- Post_Q[,-1]
+```{r, message=FALSE, eval=F}
+Post_E <- as.data.frame(Post_E)
+Post_Q <- as.data.frame(Post_Q)
+row.names(Post_E) <- Post_E$HGNC.Symbol
+row.names(Post_Q) <- Post_Q$HGNC.Symbol
+Post_E <- Post_E[,-1]
+Post_Q <- Post_Q[,-1]
 ```
 
 Write the new tables to csv files
-```{r}
-#write.csv(PRE, 'pre_combined.csv', row.names=TRUE)
-#write.csv(Post_E, 'Post_EGCG_combine.csv', row.names=TRUE)
-#write.csv(Post_Q, 'Post_EGCG_Quer_combine.csv', row.names=TRUE)
+```{r, eval=F}
+write.csv(PRE, 'pre_combined.csv', row.names=TRUE)
+write.csv(Post_E, 'Post_EGCG_combine.csv', row.names=TRUE)
+write.csv(Post_Q, 'Post_EGCG_Quer_combine.csv', row.names=TRUE)
 ```
 
 
